@@ -1,7 +1,7 @@
 {
     "id": "org.filezillaproject.Filezilla",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.24",
+    "runtime-version": "3.26",
     "sdk": "org.gnome.Sdk",
     "command": "filezilla",
     "rename-icon": "filezilla",
@@ -66,8 +66,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "http://download.filezilla-project.org/libfilezilla/libfilezilla-0.11.0.tar.bz2",
-                "sha256": "cc7467241c8905de98773b414ce445d6f9ff3bf3105f2d16cecab76404879ed0"
+                "url": "http://download.filezilla-project.org/libfilezilla/libfilezilla-0.11.1.tar.bz2",
+                "sha256": "ecbaa674c0ad0b63df842b8cde17935a497dd58c3749baa281c67cf5878e64f7"
             }
         ]
     },
@@ -79,8 +79,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.28.0/FileZilla_3.28.0_src.tar.bz2",
-                "sha256": "e49621aeb07c89547508c9ef244e2226168e06b120f49d2c4d428d95f1adbfb7"
+                "url": "https://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.29.0/FileZilla_3.29.0_src.tar.bz2",
+                "sha256": "ead1ed74f19cf33aadf814a45b742207de3a8c349dbe2a11c344966bb8705259"
             }
         ]
     }
