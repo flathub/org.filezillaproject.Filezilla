@@ -1,5 +1,5 @@
 {
-    "id": "org.filezillaproject.Filezilla",
+    "id": "org.filezilla-project.Filezilla",
     "runtime": "org.gnome.Platform",
     "runtime-version": "3.26",
     "sdk": "org.gnome.Sdk",
