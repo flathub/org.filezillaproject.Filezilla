@@ -88,7 +88,11 @@
         ],
         "post-install": [
             "install -t /app/share/appdata -Dm644 org.filezillaproject.Filezilla.appdata.xml",
-            "rm /app/share/appdata/filezilla.appdata.xml"
+            "rm /app/share/appdata/filezilla.appdata.xml",
+            "for size in 64 128; do
+              rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/filezilla.svg
+              install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/filezilla.png
+            done"
         ],
         "sources": [
             {
