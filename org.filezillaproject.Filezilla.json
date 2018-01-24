@@ -18,6 +18,13 @@
             "--filesystem=home",
             "--share=network"
     ],
+    "cleanup": [
+      "/include",
+      "/lib/pkgconfig",
+      "/lib/*.a",
+      "/lib/*.la",
+      "/share/aclocal"
+    ],
     "modules": [
         "shared-modules/glu/glu-9.0.0.json",
     {
