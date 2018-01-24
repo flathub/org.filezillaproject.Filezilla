@@ -82,6 +82,10 @@
         "config-opts": [
             "--with-pugixml=builtin"
         ],
+        "cleanup": [
+          "/share/pixmaps",
+          "/share/man"
+        ],
         "post-install": [
             "install -t /app/share/appdata -Dm644 org.filezillaproject.Filezilla.appdata.xml",
             "rm /app/share/appdata/filezilla.appdata.xml"
