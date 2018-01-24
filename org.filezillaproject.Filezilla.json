@@ -76,6 +76,9 @@
         "config-opts": [
             "--with-pugixml=builtin"
         ],
+        "post-install": [
+          "sed -i s/org.filezilla-project.FileZilla/org.filezillaproject.Filezilla/ /app/share/appdata/filezilla.appdata.xml"
+        ],
         "sources": [
             {
                 "type": "archive",
