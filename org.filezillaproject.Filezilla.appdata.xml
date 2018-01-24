@@ -31,7 +31,7 @@
     </ul>
   </description>
   <url type="homepage">https://filezilla-project.org/</url>
-  <launchable type="desktop">org.filezillaproject.Filezilla.desktop</launchable>
+  <launchable type="desktop-id">org.filezillaproject.Filezilla.desktop</launchable>
   <provides>
     <id>org.filezilla-project.FileZilla</id>
     <id>filezilla.desktop</id>
