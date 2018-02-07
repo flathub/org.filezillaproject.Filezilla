@@ -64,6 +64,10 @@
                     "cp -p /usr/share/automake-*/config.{sub,guess} .",
                     "autoconf -f -B build/autoconf_prepend-include"
                 ]
+            },
+            {  
+                "type": "patch", 
+                "path": "fix_assertion_using_hide_in_destroy.diff"
             }
         ]
     },
