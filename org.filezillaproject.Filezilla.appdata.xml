@@ -30,6 +30,9 @@
       <li>Remote file search</li>
     </ul>
   </description>
+  <releases>
+    <release version="3.31.0" date="2018-02-23"/>
+  </releases>
   <url type="homepage">https://filezilla-project.org/</url>
   <launchable type="desktop-id">org.filezillaproject.Filezilla.desktop</launchable>
   <provides>
