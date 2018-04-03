@@ -28,7 +28,6 @@
         "shared-modules/glu/glu-9.0.0.json",
     {
         "name": "wxWidgets",
-        "rm-configure": true,
         "cleanup": [
             "/bin",
             "/share/bakefile"
@@ -54,20 +53,8 @@
         "sources": [ 
             {  
                 "type": "archive", 
-                "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.3.1/wxWidgets-3.0.3.1.tar.bz2",
-                "sha256":"3164ad6bc5f61c48d2185b39065ddbe44283eb834a5f62beb13f1d0923e366e4" 
-            },
-            {
-                "type": "script",
-                "path": "autogen.sh",
-                "commands": [
-                    "cp -p /usr/share/automake-*/config.{sub,guess} .",
-                    "autoconf -f -B build/autoconf_prepend-include"
-                ]
-            },
-            {  
-                "type": "patch", 
-                "path": "fix_assertion_using_hide_in_destroy.diff"
+                "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4.tar.bz2",
+                "sha256":"96157f988d261b7368e5340afa1a0cad943768f35929c22841f62c25b17bf7f0" 
             }
         ]
     },
@@ -101,8 +88,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.31.0/FileZilla_3.31.0_src.tar.bz2",
-                "sha256": "14c568b7e3331b8ae6d2371aeb4f4b43fbf97f057c0af9d75165d0d8d0d2dee5"
+                "url": "https://dl1.cdn.filezilla-project.org/client/FileZilla_3.32.0_src.tar.bz2",
+                "sha256": "2d3d28b590c21b7b9cb92209c04833caf4c50f51186ca20747e5d9653f623be9"
             },
             {
                 "type": "file",
