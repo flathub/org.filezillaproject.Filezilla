@@ -15,7 +15,11 @@
             "--talk-name=org.freedesktop.Notifications",
             "--talk-name=org.gnome.SessionManager",
             "--filesystem=home",
-            "--share=network"
+            "--share=network",
+            "--filesystem=xdg-run/dconf",
+            "--filesystem=~/.config/dconf:ro",
+            "--talk-name=ca.desrt.dconf",
+            "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
     ],
     "cleanup": [
       "/include",
