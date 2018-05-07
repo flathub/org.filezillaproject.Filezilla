@@ -31,6 +31,7 @@
     </ul>
   </description>
   <releases>
+    <release version="3.33.0" date="2018-05-07"/>
     <release version="3.32.0" date="2018-04-03"/>
   </releases>
   <url type="homepage">https://filezilla-project.org/</url>
