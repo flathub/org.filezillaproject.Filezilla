@@ -67,8 +67,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.12.3.tar.bz2",
-                "sha256": "05b26742cd232a9205977025e6a48136a87820df7decdc39adb565f1d934c0ec"
+                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.13.0.tar.bz2",
+                "sha256": "ffca3c40dbe729dfc9389034f420809dec1b6f2674dc2cd39dc7edfcc59f686a"
             }
         ]
     },
@@ -84,7 +84,7 @@
         "post-install": [
             "install -t /app/share/appdata -Dm644 org.filezillaproject.Filezilla.appdata.xml",
             "rm /app/share/appdata/filezilla.appdata.xml",
-            "for size in 64 128 256; do
+            "for size in 64 128 256 512; do
               rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/filezilla.svg
               install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/filezilla.png
             done"
@@ -92,8 +92,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://dl3.cdn.filezilla-project.org/client/FileZilla_3.34.0_src.tar.bz2",
-                "sha256": "637ea551a442e22d8ee862b0f035077d37ba823a4372e8d0fcbd5b0e378bea80"
+                "url": "https://dl3.cdn.filezilla-project.org/client/FileZilla_3.35.1_src.tar.bz2",
+                "sha256": "8c99d39ecfdb892d13ee13200003f260a55cbbd6d2be161fad3e137454f15f84"
             },
             {
                 "type": "file",
