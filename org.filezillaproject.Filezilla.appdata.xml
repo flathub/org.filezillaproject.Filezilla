@@ -31,6 +31,7 @@
     </ul>
   </description>
   <releases>
+    <release version="3.35.2" date="2018-08-06"/>
     <release version="3.35.1" date="2018-07-23"/>
     <release version="3.34.0" date="2018-06-17"/>
     <release version="3.33.0" date="2018-05-07"/>
