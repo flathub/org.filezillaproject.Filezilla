@@ -32,12 +32,14 @@
   </description>
   <releases>
     <release version="3.37.0" date="2018-09-17">
-      <ul>
-        <li>Fix remote target path if uploading files through the search dialog</li>
-        <li>Use a cache for the system trust store to speed up connecting establishment on systems with huge certificate revocation lists in the system trust store</li>
-        <li>Fixed bug in GnuTLS causing crashes on connection establishment</li>
-        <li>Fixed enabled state of controls in the Site Manager if switching to a protocol not supporting the previously selected logontype</li>
-      </ul>
+      <description>
+        <ul>
+          <li>Fix remote target path if uploading files through the search dialog</li>
+          <li>Use a cache for the system trust store to speed up connecting establishment on systems with huge certificate revocation lists in the system trust store</li>
+          <li>Fixed bug in GnuTLS causing crashes on connection establishment</li>
+          <li>Fixed enabled state of controls in the Site Manager if switching to a protocol not supporting the previously selected logontype</li>
+        </ul>
+      </description>
     </release>
     <release version="3.36.0" date="2018-08-27"/>
     <release version="3.35.2" date="2018-08-06"/>
