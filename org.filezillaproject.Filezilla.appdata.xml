@@ -31,6 +31,13 @@
     </ul>
   </description>
   <releases>
+    <release version="3.37.1" date="2018-09-21">
+      <description>
+        <ul>
+          <li>Local path is no longer forgotten when leaving synchronized browsing mode</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.37.0" date="2018-09-17">
       <description>
         <ul>
