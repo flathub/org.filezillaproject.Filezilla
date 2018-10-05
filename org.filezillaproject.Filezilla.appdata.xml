@@ -31,6 +31,14 @@
     </ul>
   </description>
   <releases>
+    <release version="3.37.4" date="2018-10-04"/>
+    <release version="3.37.3" date="2018-09-21">
+      <description>
+        <ul>
+          <li>Fix issues with directory creation when uploading many files in parallel</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.37.1" date="2018-09-21">
       <description>
         <ul>
