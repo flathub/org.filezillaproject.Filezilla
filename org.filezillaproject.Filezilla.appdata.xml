@@ -31,6 +31,17 @@
     </ul>
   </description>
   <releases>
+    <release version="3.38.0" date="2018-10-26">
+      <description>
+        <ul>
+          <li>Updated translations</li>
+          <li>Refreshing remote file list while holding Ctrl now clears the remote directory cache for the current server</li>
+          <li>Changed default logon type if creating a new site in the Site Manager</li>
+          <li>Fixed state of controls in the Site Manager when creating a new site after the previously viewed site has been predefined</li>
+          <li>Fixed dragging remote files to queue</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.37.4" date="2018-10-04"/>
     <release version="3.37.3" date="2018-09-21">
       <description>
@@ -46,18 +57,6 @@
         </ul>
       </description>
     </release>
-    <release version="3.37.0" date="2018-09-17">
-      <description>
-        <ul>
-          <li>Fix remote target path if uploading files through the search dialog</li>
-          <li>Use a cache for the system trust store to speed up connecting establishment on systems with huge certificate revocation lists in the system trust store</li>
-          <li>Fixed bug in GnuTLS causing crashes on connection establishment</li>
-          <li>Fixed enabled state of controls in the Site Manager if switching to a protocol not supporting the previously selected logontype</li>
-        </ul>
-      </description>
-    </release>
-    <release version="3.36.0" date="2018-08-27"/>
-    <release version="3.35.2" date="2018-08-06"/>
   </releases>
   <url type="homepage">https://filezilla-project.org/</url>
   <launchable type="desktop-id">org.filezillaproject.Filezilla.desktop</launchable>
