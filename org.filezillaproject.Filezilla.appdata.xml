@@ -31,6 +31,13 @@
     </ul>
   </description>
   <releases>
+    <release version="3.38.1" date="2018-10-27">
+      <description>
+        <ul>
+          <li>Fixed crash if transferring three or more files in parallel when speed limits are enabled</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.38.0" date="2018-10-26">
       <description>
         <ul>

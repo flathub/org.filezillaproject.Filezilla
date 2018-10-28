@@ -94,8 +94,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.38.0_src.tar.bz2",
-                "sha256": "3aa7e577d54d78b1e9af0cd22c6ef277f8566a1fda302bcec3595cd4e3818328"
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.38.1_src.tar.bz2",
+                "sha256": "1a86becc4a8bb70ff316522217818364028b95224fc728e3bb676ebee98d0cde"
             },
             {
                 "type": "file",
