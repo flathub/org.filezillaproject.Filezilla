@@ -69,8 +69,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.15.0.tar.bz2",
-                "sha256": "9e68d35b23423d95e40126cadce6b07f1e82db3721227d577450f358d5482317"
+                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.15.1.tar.bz2",
+                "sha512": "d557f7636bfc3958b8558fab3384b0ea84caea594566d39c051f20f02dfd71213369c50df282a3f7d2dd757038bd26e9722214839dab965cb7cde9733d59883a"
             }
         ]
     },
@@ -94,8 +94,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.38.1_src.tar.bz2",
-                "sha256": "1a86becc4a8bb70ff316522217818364028b95224fc728e3bb676ebee98d0cde"
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.39.0_src.tar.bz2",
+                "sha256": "fb515e93775e5ad94ff2755b39605b62b3e8fcfc1125757f411d8f580d16444f"
             },
             {
                 "type": "file",
