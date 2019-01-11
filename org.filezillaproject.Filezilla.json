@@ -14,7 +14,7 @@
             "--talk-name=org.freedesktop.PowerManagement",
             "--talk-name=org.freedesktop.Notifications",
             "--talk-name=org.gnome.SessionManager",
-            "--filesystem=home",
+            "--filesystem=host",
             "--share=network",
             "--filesystem=xdg-run/dconf",
             "--filesystem=~/.config/dconf:ro",
