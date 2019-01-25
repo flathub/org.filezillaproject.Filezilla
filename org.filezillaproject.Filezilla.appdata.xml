@@ -31,6 +31,13 @@
     </ul>
   </description>
   <releases>
+    <release version="3.40.0" date="2019-01-25">
+      <description>
+        <ul>
+          <li>Refactored how sites and servers are being represented internally to fix issues trigged by renaming sites in the Site Manager</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.39.0" date="2018-11-30">
       <description>
         <ul>
