@@ -86,7 +86,6 @@
   <url type="faq">https://wiki.filezilla-project.org/FAQ</url>
   <url type="help">https://filezilla-project.org/support.php</url>
   <url type="translate">https://filezilla-project.org/translations.php</url>
-  <url type="contact">https://filezilla-project.org/contact.php</url>  
   <launchable type="desktop-id">org.filezillaproject.Filezilla.desktop</launchable>
   <provides>
     <id>org.filezilla-project.FileZilla</id>
