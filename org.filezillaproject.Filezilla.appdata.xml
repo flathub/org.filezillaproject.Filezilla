@@ -31,6 +31,19 @@
     </ul>
   </description>
   <releases>
+    <release version="3.41.0" date="2019-03-06">
+      <description>
+        <ul>
+		<li>Fixed crash if adding a bookmark with the current connection not yet having a Site Manager entry</li>
+		<li>Fixed a rare crash if closing FileZilla while a recursive chmod operation is still in progress</li>
+                <li>Fixed a rare crash if starting directory comparison on an empty directory without logical parent</li>
+                <li>Fixed a rare crash on changing the file list sort order when the focused item index has previously become invalid</li>
+                <li>Restrict the maximum length of regular expressions in filter conditions due to bugs in some implementations of the C++ Standard Library causing crashes</li>
+                <li>Fixed order in which directories helper tools and data files are searched for</li>
+                <li>Fixed a rare crash if closing tab during an ongoing recursive directory deletion</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.40.0" date="2019-01-25">
       <description>
         <ul>
@@ -70,13 +83,6 @@
       <description>
         <ul>
           <li>Fix issues with directory creation when uploading many files in parallel</li>
-        </ul>
-      </description>
-    </release>
-    <release version="3.37.1" date="2018-09-21">
-      <description>
-        <ul>
-          <li>Local path is no longer forgotten when leaving synchronized browsing mode</li>
         </ul>
       </description>
     </release>

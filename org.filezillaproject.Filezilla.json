@@ -39,8 +39,8 @@
             "/share/bakefile"
         ],
         "config-opts": [
-            "--with-opengl", 
-            "--with-libjpeg", 
+            "--with-opengl",
+            "--with-libjpeg",
             "--with-libtiff",
             "--with-libpng",
             "--with-zlib",
@@ -56,9 +56,9 @@
         "build-options" : {
             "cxxflags":"-std=c++0x"
         },
-        "sources": [ 
-            {  
-                "type": "archive", 
+        "sources": [
+            {
+                "type": "archive",
                 "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4.tar.bz2",
                 "sha256":"96157f988d261b7368e5340afa1a0cad943768f35929c22841f62c25b17bf7f0" 
             }
@@ -94,8 +94,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.40.0_src.tar.bz2",
-                "sha256": "c36ca08540f0be2227b8721195bb16a626c01608f09ed60a862a73e640206085"
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.41.0_src.tar.bz2",
+                "sha256": "f82aea4bb84048156885e79ec7333fa057d9762676766eb606d74ad58f52f71a"
             },
             {
                 "type": "file",
