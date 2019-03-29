@@ -31,6 +31,13 @@
     </ul>
   </description>
   <releases>
+      <release version="3.41.2" date="2019-03-18">
+        <description>
+          <ul>
+            <li>Backport a security fix from PuTTY 0.71 affecting SFTP connections.</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.41.1" date="2019-03-06">
       <description>
         <ul>
