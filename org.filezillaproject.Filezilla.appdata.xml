@@ -31,6 +31,14 @@
     </ul>
   </description>
   <releases>
+        <release version="3.42.1" date="2019-05-08">
+        <description>
+          <ul>
+            <li>Fixed a potential crash if the first-launch welcome dialog is shown at an inopportune moment</li>
+            <li>Fixed display of subject and issuer details in the certificate verification dialogs with some certificates</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.41.2" date="2019-03-18">
         <description>
           <ul>
