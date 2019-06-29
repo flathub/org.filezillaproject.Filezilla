@@ -31,6 +31,14 @@
     </ul>
   </description>
   <releases>
+      <release version="3.43.0" date="2019-06-27">
+        <description>
+          <ul>
+            <li>Filenames containing double-quotation marks were not escaped correctly when selected for opening/editing. Depending on the associated program, parts of the filename could be interpreted as commands.</li>
+            <li>Added a second layer of authentication to the update mechanism</li>
+          </ul>
+        </description>
+      </release>
         <release version="3.42.1" date="2019-05-08">
         <description>
           <ul>
