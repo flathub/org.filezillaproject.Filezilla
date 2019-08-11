@@ -31,6 +31,15 @@
     </ul>
   </description>
   <releases>
+      <release version="3.44.1" date="2019-08-09">
+        <description>
+          <ul>
+            <li>Multiple items can now be selected in the Site Manager.</li>
+            <li>Pressing F3 in the Site Manager opens a search dialog.</li>
+            <li>Add a reminder to the message log to switch to FTP over TLS each time a plain FTP connection is used.</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.43.0" date="2019-06-27">
         <description>
           <ul>
@@ -39,7 +48,7 @@
           </ul>
         </description>
       </release>
-        <release version="3.42.1" date="2019-05-08">
+      <release version="3.42.1" date="2019-05-08">
         <description>
           <ul>
             <li>Fixed a potential crash if the first-launch welcome dialog is shown at an inopportune moment</li>
