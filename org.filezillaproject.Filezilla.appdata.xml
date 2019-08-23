@@ -31,6 +31,14 @@
     </ul>
   </description>
   <releases>
+      <release version="3.44.2" date="2019-08-15">
+        <description>
+          <ul>
+            <li>Fixes to protocol selection glitches in the Site Manager</li>
+            <li>Increase maximum length of response lines when using FTP</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.44.1" date="2019-08-09">
         <description>
           <ul>
