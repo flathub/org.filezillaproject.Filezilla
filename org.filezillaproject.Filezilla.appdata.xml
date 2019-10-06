@@ -31,6 +31,15 @@
     </ul>
   </description>
   <releases>
+      <release version="3.45.1" date="2019-09-25">
+        <description>
+          <ul>
+            <li>Minor performance improvements deleting many thousands of files</li>
+            <li>Fixed prefix search in Site Manager</li>
+            <li>Performance improvements if expanding or refreshing a directory with thousands of direct subdirectories in the directory trees</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.44.2" date="2019-08-15">
         <description>
           <ul>

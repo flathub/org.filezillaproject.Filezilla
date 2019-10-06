@@ -1,7 +1,7 @@
 {
     "id": "org.filezillaproject.Filezilla",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "18.08",
+    "runtime-version": "19.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "filezilla",
     "rename-icon": "filezilla",
@@ -31,7 +31,7 @@
       "/share/aclocal"
     ],
     "modules": [
-        "shared-modules/glu/glu-9.0.0.json",
+        "shared-modules/glu/glu-9.json",
     {
         "name": "wxWidgets",
         "cleanup": [
@@ -69,8 +69,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.18.1.tar.bz2",
-                "sha512": "b1077a48575ec6bd99cb01a21171fdec4ea662bb4ecb568cb547c6401164854588801cdc4ae80d62809534d2b04d42dcc3f7325bf57af0e2e737a4ca9f15032e"
+                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.18.2.tar.bz2",
+                "sha512": "6f165a008ea8e3090554070685ef042b5304a8e7fdeb9f16c81a01c00b5fcb3d4acd356cfaf3fc1189c04db0b726dd005c592f6c7c6b06a527d8b82e7890257b"
             }
         ]
     },
@@ -94,8 +94,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.44.2_src.tar.bz2",
-                "sha512": "9d4678a3a06f0ecac5ecfbae33f83df5f07e26da4f4a7e922fe5b00a5e59d5728af028667f6fa56210a23ecaa1c2a661d1874b218c2511a783644ed2b03e36ad"
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.45.1_src.tar.bz2",
+                "sha512": "feb267b85ad2843baea0c6df66ed86866121f33e2295fcb9003a8bc2603ad684f4fe801ea842cb291e3fb5cd7195ccb2d21bfa95711a61be6b4debfd4e1c7822"
             },
             {
                 "type": "file",
