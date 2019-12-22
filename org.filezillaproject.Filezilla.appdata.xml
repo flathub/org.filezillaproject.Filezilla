@@ -31,10 +31,18 @@
     </ul>
   </description>
   <releases>
+      <release version="3.46.2" date="2019-11-26">
+        <description>
+          <ul>
+            <li>SFTP: Fixed a regression connecting using a password-protected keyfile</li>
+            <li>Fixed a crash if an FTP server sends too long response lines</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.46.0" date="2019-11-26">
         <description>
           <ul>
-            <li>    Show an error message in the local directory listing if the user lacks permission to show the directory</li>
+            <li>Show an error message in the local directory listing if the user lacks permission to show the directory</li>
           </ul>
         </description>
       </release>
