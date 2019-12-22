@@ -69,7 +69,7 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.19.1.tar.bz2",
+                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.19.3.tar.bz2",
                 "sha512": "264a3a110dc4e99f6b993479be9f25cf831297899c699d73e5ad5a403e11ff09fa9ab062a420a0111e78f7d6e68e92fa461c161c8fd7c274cf227ef45f618849"
             }
         ]
