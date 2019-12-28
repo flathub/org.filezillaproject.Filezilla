@@ -69,8 +69,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.19.1.tar.bz2",
-                "sha512": "1342a199e4bdc211437deaa4ff34fe7f7de476a664b1ea4dc8df0482db98eb6c21e03f9c7b510bc00c81f6dacd7fdec2fa721554fe6e71c5bb2763618759b1a1"
+                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.19.3.tar.bz2",
+                "sha512": "264a3a110dc4e99f6b993479be9f25cf831297899c699d73e5ad5a403e11ff09fa9ab062a420a0111e78f7d6e68e92fa461c161c8fd7c274cf227ef45f618849"
             }
         ]
     },
@@ -94,8 +94,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.46.0_src.tar.bz2",
-                "sha512": "26ffb039b4a6d51d6d1011ee452f3690f74514c91a9e58c79880dbf778296cfc81283fade52f65f81654b828449e2b7e703b1d6c1e2e84c08f54681d2aa92674"
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.46.3_src.tar.bz2",
+                "sha512": "35b61c3bfd1d40848e7846b4533da8844df0e4873cb89286b90330cbc29dffeff96fcab10aec908a08d9129198bb2d80df8f223d8ebc1a0863a4083cb06abffc"
             },
             {
                 "type": "file",
