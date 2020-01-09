@@ -16,10 +16,6 @@
             "--talk-name=org.gnome.SessionManager",
             "--filesystem=host",
             "--share=network",
-            "--filesystem=xdg-run/dconf",
-            "--filesystem=~/.config/dconf:ro",
-            "--talk-name=ca.desrt.dconf",
-            "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
             "--require-version=0.10.3",
             "--socket=ssh-auth"
     ],
