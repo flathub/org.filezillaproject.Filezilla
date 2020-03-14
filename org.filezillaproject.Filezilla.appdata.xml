@@ -31,6 +31,15 @@
     </ul>
   </description>
   <releases>
+      <release version="3.47.2.1" date="2020-03-11">
+        <description>
+          <ul>
+            <li>SFTP: Backported selected fixes from developement versions of PuTTY</li>
+            <li>Fixed value range for directional transfer limits</li>
+            <li>Fixed layout issues if changing to/from comparative search</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.47.1" date="2020-02-25">
         <description>
           <ul>
