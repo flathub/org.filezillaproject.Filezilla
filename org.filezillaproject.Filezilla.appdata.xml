@@ -31,6 +31,13 @@
     </ul>
   </description>
   <releases>
+      <release version="3.48.0" date="2020-04-28">
+        <description>
+          <ul>
+            <li>Custom associations for file extensions containing spaces were not saved correctly</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.47.2.1" date="2020-03-11">
         <description>
           <ul>
