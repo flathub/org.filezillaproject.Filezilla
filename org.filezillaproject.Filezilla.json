@@ -55,8 +55,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4.tar.bz2",
-                "sha256":"96157f988d261b7368e5340afa1a0cad943768f35929c22841f62c25b17bf7f0" 
+                "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.5.1/wxWidgets-3.0.5.1.tar.bz2",
+                "sha256":"440f6e73cf5afb2cbf9af10cec8da6cdd3d3998d527598a53db87099524ac807" 
             }
         ]
     },
@@ -65,8 +65,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.21.0.tar.bz2",
-                "sha512": "a4986f8da4ac6980e7b1e564d3b033853b0e5442e4bbdee337238ad5e896b80c74e7176f973055593bd45789c41725a6315c6d510ad44354588188a1cc9f29f9"
+                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.22.0.tar.bz2",
+                "sha512": "6ec53a4d82dc4c6650c560633c1f1cd50866fd954d5153be7e9ebea3ee0fa38d287e16dfdccb9ad22a7e7a325eec5d659bc51dd963b2deb540e8206e0f45513e"
             }
         ]
     },
@@ -90,8 +90,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.48.0_src.tar.bz2",
-                "sha512": "c9d4eb17dc31894468ca4b7c4c8fda0f307d3931bf1b3b8fb44afd084a1b2c9309d39e5745f9ba287a5566d44089af32350703e324a559afd6a015af469433fb"
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.48.1_src.tar.bz2",
+                "sha512": "58792f92bb4f6102166924abaf843c023faeca7f2979aaa47c26f2bb3f8449902b4a43c50a800d56584d39c9ddf64a6d3334558e46f56bda3b8515c7a3ff0a12"
             },
             {
                 "type": "file",

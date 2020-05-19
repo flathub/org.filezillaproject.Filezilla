@@ -31,6 +31,14 @@
     </ul>
   </description>
   <releases>
+      <release version="3.48.1" date="2020-05-19">
+        <description>
+          <ul>
+            <li>Redesigned certificate dialog</li>
+            <li>During directory comparison and comparative search, Ctrl+Shift+A can now be used to select only the highlighted files</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.48.0" date="2020-04-28">
         <description>
           <ul>
@@ -178,14 +186,6 @@
           <li>Changed default logon type if creating a new site in the Site Manager</li>
           <li>Fixed state of controls in the Site Manager when creating a new site after the previously viewed site has been predefined</li>
           <li>Fixed dragging remote files to queue</li>
-        </ul>
-      </description>
-    </release>
-    <release version="3.37.4" date="2018-10-04"/>
-    <release version="3.37.3" date="2018-09-21">
-      <description>
-        <ul>
-          <li>Fix issues with directory creation when uploading many files in parallel</li>
         </ul>
       </description>
     </release>
