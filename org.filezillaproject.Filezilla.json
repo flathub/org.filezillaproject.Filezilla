@@ -8,7 +8,7 @@
     "copy-icon": true,
     "rename-desktop-file": "filezilla.desktop",
     "finish-args": [
-            "--share=ipc", "--socket=x11",
+            "--share=ipc", "--socket=fallback-x11",
             "--device=dri",
             "--socket=wayland",
             "--talk-name=org.freedesktop.PowerManagement",
@@ -65,8 +65,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.22.0.tar.bz2",
-                "sha512": "6ec53a4d82dc4c6650c560633c1f1cd50866fd954d5153be7e9ebea3ee0fa38d287e16dfdccb9ad22a7e7a325eec5d659bc51dd963b2deb540e8206e0f45513e"
+                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.23.0.tar.bz2",
+                "sha512": "a69040b7767e4568ba155adce67a5755b2947a73626bad89c89c88c773cb99147349ec5c3b8cc746715c9270b54ac6bc70fd57c77fe125b2dc6753669dfe93d7"
             }
         ]
     },
@@ -90,8 +90,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.48.1_src.tar.bz2",
-                "sha512": "58792f92bb4f6102166924abaf843c023faeca7f2979aaa47c26f2bb3f8449902b4a43c50a800d56584d39c9ddf64a6d3334558e46f56bda3b8515c7a3ff0a12"
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.49.0_src.tar.bz2",
+                "sha512": "f303ad04bd7878ddbaa04079eedbbfffc206ae717f3dfff83ec0662f96d9d8ce31752d1d44ca4548c76ffe6932ba71db9c9df34cfff76222c96ee04ef1521cce"
             },
             {
                 "type": "file",

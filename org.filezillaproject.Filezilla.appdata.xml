@@ -31,6 +31,15 @@
     </ul>
   </description>
   <releases>
+      <release version="3.49.0" date="2020-07-14">
+        <description>
+          <ul>
+            <li>Fixed retrying initial connection attempts</li>
+            <li>The sizing and spacing of several dialogs has been improved on high-DPI displays</li>
+            <li>When creating a new tab, the pane sizes are now inherited from the previous tab</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.48.1" date="2020-05-19">
         <description>
           <ul>
