@@ -31,6 +31,13 @@
     </ul>
   </description>
   <releases>
+      <release version="3.49.1" date="2020-07-15">
+        <description>
+          <ul>
+            <li>Fixed selection changes not being reflected in the Site Manager in some circumstances</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.49.0" date="2020-07-14">
         <description>
           <ul>

@@ -90,8 +90,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.49.0_src.tar.bz2",
-                "sha512": "f303ad04bd7878ddbaa04079eedbbfffc206ae717f3dfff83ec0662f96d9d8ce31752d1d44ca4548c76ffe6932ba71db9c9df34cfff76222c96ee04ef1521cce"
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.49.1_src.tar.bz2",
+                "sha512": "e6e69858aff3be6f557cc338ac4cd4391699d171742a2e815dff15e029a76cb1cc0651c15a3b4fb95644371b4e84b913e34a70846454a7fd5de6f05a7f461add"
             },
             {
                 "type": "file",
