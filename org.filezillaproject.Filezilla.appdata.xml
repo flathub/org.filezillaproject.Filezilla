@@ -31,6 +31,15 @@
     </ul>
   </description>
   <releases>
+      <release version="3.50.0" date="2020-08-27">
+        <description>
+          <ul>
+            <li>Minor fixes to Tardigrade integration</li>
+            <li>Fix layout issues in the Site Manager if switching protocol</li>
+            <li>Restored natural sort option for file list sorting</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.49.1" date="2020-07-15">
         <description>
           <ul>
