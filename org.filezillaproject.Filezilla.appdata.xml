@@ -31,6 +31,15 @@
     </ul>
   </description>
   <releases>
+    <release version="3.51.0" date="2020-10-20">
+        <description>
+          <ul>
+            <li>Fixed import of sites protected with a different master password</li>
+            <li>Directory comparison now works correctly with non-default file name sorting settings</li>
+            <li>Linux: Disable receive buffer tuning if it results in unexpected consequences</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.50.0" date="2020-08-27">
         <description>
           <ul>
