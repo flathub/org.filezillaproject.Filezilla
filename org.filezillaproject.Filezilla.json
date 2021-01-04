@@ -8,7 +8,7 @@
     "copy-icon": true,
     "rename-desktop-file": "filezilla.desktop",
     "finish-args": [
-            "--share=ipc", "--socket=fallback-x11",
+            "--socket=fallback-x11",
             "--device=dri",
             "--socket=wayland",
             "--talk-name=org.freedesktop.PowerManagement",
@@ -56,7 +56,7 @@
             {
                 "type": "archive",
                 "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.5.1/wxWidgets-3.0.5.1.tar.bz2",
-                "sha256":"440f6e73cf5afb2cbf9af10cec8da6cdd3d3998d527598a53db87099524ac807" 
+                "sha256":"440f6e73cf5afb2cbf9af10cec8da6cdd3d3998d527598a53db87099524ac807"
             }
         ]
     },
@@ -73,6 +73,8 @@
     {
         "name": "filezilla",
         "config-opts": [
+            "--disable-autoupdatecheck",
+            "--disable-manualupdatecheck",
             "--with-pugixml=builtin"
         ],
         "cleanup": [
