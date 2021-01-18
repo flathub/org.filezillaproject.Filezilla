@@ -31,14 +31,22 @@
     </ul>
   </description>
   <releases>
+   <release version="3.52.2" date="2021-01-18">
+      <description>
+        <ul>
+          <li>When restoring the main window position at startup, detect if the title bar would become hidden behind taskbars or global menu bars and reposition it appropriately</li>
+          <li>SFTP: Fixed preserving of timestamps on downloads</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.52.0" date="2021-01-04">
-        <description>
-          <ul>
-            <li>Added context menu item in the search dialog to close the search and set the selected directory as the current local/remote directory</li>
-            <li>Use asynchronous file readers/writers in the engine</li>
-          </ul>
-        </description>
-      </release>
+      <description>
+        <ul>
+          <li>Added context menu item in the search dialog to close the search and set the selected directory as the current local/remote directory</li>
+          <li>Use asynchronous file readers/writers in the engine</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.51.0" date="2020-10-20">
         <description>
           <ul>
