@@ -31,6 +31,14 @@
     </ul>
   </description>
   <releases>
+   <release version="3.53.0" date="2021-03-15">
+      <description>
+        <ul>
+          <li>Require explicit confirmation on FTP servers not supporting TLS session esumption on the data connection</li>
+          <li>Access Grant support for Tardigrade</li>
+        </ul>
+      </description>
+    </release>
    <release version="3.52.2" date="2021-01-18">
       <description>
         <ul>
@@ -65,180 +73,6 @@
           </ul>
         </description>
       </release>
-      <release version="3.49.1" date="2020-07-15">
-        <description>
-          <ul>
-            <li>Fixed selection changes not being reflected in the Site Manager in some circumstances</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.49.0" date="2020-07-14">
-        <description>
-          <ul>
-            <li>Fixed retrying initial connection attempts</li>
-            <li>The sizing and spacing of several dialogs has been improved on high-DPI displays</li>
-            <li>When creating a new tab, the pane sizes are now inherited from the previous tab</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.48.1" date="2020-05-19">
-        <description>
-          <ul>
-            <li>Redesigned certificate dialog</li>
-            <li>During directory comparison and comparative search, Ctrl+Shift+A can now be used to select only the highlighted files</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.48.0" date="2020-04-28">
-        <description>
-          <ul>
-            <li>Custom associations for file extensions containing spaces were not saved correctly</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.47.2.1" date="2020-03-11">
-        <description>
-          <ul>
-            <li>SFTP: Backported selected fixes from developement versions of PuTTY</li>
-            <li>Fixed value range for directional transfer limits</li>
-            <li>Fixed layout issues if changing to/from comparative search</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.47.1" date="2020-02-25">
-        <description>
-          <ul>
-            <li>Fixed regression loading advanced site parameters</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.47.0" date="2020-02-24">
-        <description>
-          <ul>
-            <li>Added new search mode: Comparative search</li>
-            <li>Pressing F7 now switches focus between local and remote panes</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.46.3" date="2019-12-23">
-        <description>
-          <ul>
-            <li>SFTP: Remote paths were not fully resolved on all operations</li>
-            <li>SFTP: Fixed a regression connecting using a password-protected keyfile</li>
-            <li>Fixed a crash if an FTP server sends too long response lines</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.46.0" date="2019-11-26">
-        <description>
-          <ul>
-            <li>Show an error message in the local directory listing if the user lacks permission to show the directory</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.45.1" date="2019-09-25">
-        <description>
-          <ul>
-            <li>Minor performance improvements deleting many thousands of files</li>
-            <li>Fixed prefix search in Site Manager</li>
-            <li>Performance improvements if expanding or refreshing a directory with thousands of direct subdirectories in the directory trees</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.44.2" date="2019-08-15">
-        <description>
-          <ul>
-            <li>Fixes to protocol selection glitches in the Site Manager</li>
-            <li>Increase maximum length of response lines when using FTP</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.44.1" date="2019-08-09">
-        <description>
-          <ul>
-            <li>Multiple items can now be selected in the Site Manager.</li>
-            <li>Pressing F3 in the Site Manager opens a search dialog.</li>
-            <li>Add a reminder to the message log to switch to FTP over TLS each time a plain FTP connection is used.</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.43.0" date="2019-06-27">
-        <description>
-          <ul>
-            <li>Filenames containing double-quotation marks were not escaped correctly when selected for opening/editing. Depending on the associated program, parts of the filename could be interpreted as commands.</li>
-            <li>Added a second layer of authentication to the update mechanism</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.42.1" date="2019-05-08">
-        <description>
-          <ul>
-            <li>Fixed a potential crash if the first-launch welcome dialog is shown at an inopportune moment</li>
-            <li>Fixed display of subject and issuer details in the certificate verification dialogs with some certificates</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.41.2" date="2019-03-18">
-        <description>
-          <ul>
-            <li>Backport a security fix from PuTTY 0.71 affecting SFTP connections.</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.41.1" date="2019-03-06">
-      <description>
-        <ul>
-		      <li>Fix a regression introduced in 3.41.1 with slow FTP servers needlessly waiting for a bidirectional shutdown of the data connection during downloads</li>
-        </ul>
-      </description>
-    </release>
-    <release version="3.41.0" date="2019-03-06">
-      <description>
-        <ul>
-		      <li>Fixed crash if adding a bookmark with the current connection not yet having a Site Manager entry</li>
-	      	<li>Fixed a rare crash if closing FileZilla while a recursive chmod operation is still in progress</li>
-          <li>Fixed a rare crash if starting directory comparison on an empty directory without logical parent</li>
-          <li>Fixed a rare crash on changing the file list sort order when the focused item index has previously become invalid</li>
-          <li>Restrict the maximum length of regular expressions in filter conditions due to bugs in some implementations of the C++ Standard Library causing crashes</li>
-          <li>Fixed order in which directories helper tools and data files are searched for</li>
-          <li>Fixed a rare crash if closing tab during an ongoing recursive directory deletion</li>
-        </ul>
-      </description>
-    </release>
-    <release version="3.40.0" date="2019-01-25">
-      <description>
-        <ul>
-          <li>Refactored how sites and servers are being represented internally to fix issues trigged by renaming sites in the Site Manager</li>
-        </ul>
-      </description>
-    </release>
-    <release version="3.39.0" date="2018-11-30">
-      <description>
-        <ul>
-          <li>Fix timestamps of newly created empty files on the server if the option to preserve timestamps is set</li>
-          <li>The down button on the keyboard now opens the quickconnect history dropdown menu if the quickconnect bar has the input focus</li>
-          <li>The down button on the keyboard now opens the search options if the quick search dialog has the input focus</li>
-        </ul>
-      </description>
-    </release>
-    <release version="3.38.1" date="2018-10-27">
-      <description>
-        <ul>
-          <li>Fixed crash if transferring three or more files in parallel when speed limits are enabled</li>
-        </ul>
-      </description>
-    </release>
-    <release version="3.38.0" date="2018-10-26">
-      <description>
-        <ul>
-          <li>Updated translations</li>
-          <li>Refreshing remote file list while holding Ctrl now clears the remote directory cache for the current server</li>
-          <li>Changed default logon type if creating a new site in the Site Manager</li>
-          <li>Fixed state of controls in the Site Manager when creating a new site after the previously viewed site has been predefined</li>
-          <li>Fixed dragging remote files to queue</li>
-        </ul>
-      </description>
-    </release>
   </releases>
   <url type="homepage">https://filezilla-project.org/</url>
   <url type="bugtracker">https://trac.filezilla-project.org/</url>
