@@ -98,6 +98,10 @@
             {
                 "type": "file",
                 "path": "org.filezillaproject.Filezilla.appdata.xml"
+            },
+            {
+                "type": "patch",
+                "path": "0001-Correct-notification-icon-and-app-name.patch"
             }
         ]
     }
