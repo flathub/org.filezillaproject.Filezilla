@@ -31,6 +31,14 @@
     </ul>
   </description>
   <releases>
+   <release version="3.53.1" date="2021-03-23">
+      <description>
+        <ul>
+          <li>Removed an error message on new installation where there is no sitemanager.xml yet</li>
+          <li>Fixed SOCKS5 proxy support</li>
+        </ul>
+      </description>
+   </release>
    <release version="3.53.0" date="2021-03-15">
       <description>
         <ul>
@@ -38,7 +46,7 @@
           <li>Access Grant support for Tardigrade</li>
         </ul>
       </description>
-    </release>
+   </release>
    <release version="3.52.2" date="2021-01-18">
       <description>
         <ul>
