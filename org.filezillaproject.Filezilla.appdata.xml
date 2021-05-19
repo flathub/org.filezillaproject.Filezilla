@@ -31,6 +31,15 @@
     </ul>
   </description>
   <releases>
+    <release version="3.54.1" date="2021-05-13">
+      <description>
+        <ul>
+          <li>Refactored network activity handling, the activity indicators tooltips now display more accurate data</li>
+          <li>Fix control visibility logic in Site Manager</li>
+          <li>Updated SFTP components</li>
+        </ul>
+      </description>
+   </release>
    <release version="3.53.1" date="2021-03-23">
       <description>
         <ul>
