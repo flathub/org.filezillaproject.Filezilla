@@ -31,6 +31,14 @@
     </ul>
   </description>
   <releases>
+    <release version="3.55.0" date="2021-07-09">
+      <description>
+        <ul>
+          <li>Updated SFTP components</li>
+          <li>Set appropriate ALPN on TLS connections</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.54.1" date="2021-05-13">
       <description>
         <ul>
