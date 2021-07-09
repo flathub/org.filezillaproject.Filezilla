@@ -38,8 +38,7 @@
           <li>Set appropriate ALPN on TLS connections</li>
         </ul>
       </description>
-  </release>
-  <releases>
+    </release>
     <release version="3.54.1" date="2021-05-13">
       <description>
         <ul>
