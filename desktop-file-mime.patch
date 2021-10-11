@@ -4,4 +4,4 @@
  Type=Application
  Categories=Network;FileTransfer;
  Version=1.0
-+MimeType=x-scheme-handler/ftp;
++MimeType=x-scheme-handler/ftp;x-scheme-handler/sftp;x-scheme-handler/ftps;
