@@ -31,6 +31,15 @@
     </ul>
   </description>
   <releases>
+    <release version="3.56.0" date="2021-10-11">
+      <description>
+        <ul>
+          <li>Right-clicking a queue tab header now opens the same context menu as right-clicking the correponding queue contents</li>
+          <li>By default, the minimum allowed TLS version is now TLS 1.2</li>
+          <li>Optionally, the systen trust store can be used for certificate verification</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.55.1" date="2021-08-09">
       <description>
         <ul>
