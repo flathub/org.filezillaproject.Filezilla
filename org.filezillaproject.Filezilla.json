@@ -102,6 +102,10 @@
             {
                 "type": "patch",
                 "path": "0001-Correct-notification-icon-and-app-name.patch"
+            },
+            {
+                "type": "patch",
+                "path": "desktop-file-mime.patch"
             }
         ]
     }
