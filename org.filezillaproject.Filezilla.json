@@ -65,8 +65,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.34.0.tar.bz2",
-                "sha512": "960908aa570704e983e51e2eaa13a7fb688587bd1f3c37ade6a3f1b3f5379d0b9e5d3c727bcf58f033a1cc0fce2fc34e2fdffdb379ad5be85de917c0a590de22"
+                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.34.2.tar.bz2",
+                "sha512": "a749635f7526e307b93002c4044debdcae948bebb73c272ffc98d1997cf160001a7edc6c776656ea927254614c5a3067ebab1ffc92d7b9f97cf5d4542dec8df9"
             }
         ]
     },
@@ -92,8 +92,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.56.0_src.tar.bz2",
-                "sha512": "390aceee80151bbf5e8f00cdfe48fafc20afdfab8b78f627a96215e74bc7d4ff7310dd67400b1deb531dde0fa4a100ac4cd04ff4e6166860badac68438ed23db"
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.56.1_src.tar.bz2",
+                "sha512": "65dd560f0a3ac2028448120e164b730e48c3595635d815261856d01ef9f013b011d25173fdb03b9305cf1461045cf36ce0a21917677008ae40e79d989e36ed99"
             },
             {
                 "type": "file",
