@@ -31,6 +31,13 @@
     </ul>
   </description>
   <releases>
+    <release version="3.56.2" date="2021-10-27">
+      <description>
+        <ul>
+          <li>Fixed a potential crash after uploading</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.56.1" date="2021-10-26" />
     <release version="3.56.0" date="2021-10-11">
       <description>
