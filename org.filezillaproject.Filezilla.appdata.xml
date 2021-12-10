@@ -31,6 +31,15 @@
     </ul>
   </description>
   <releases>
+    <release version="3.57.0" date="2021-12-10">
+      <description>
+        <ul>
+          <li>Fixed incorrect default settings for file editing</li>
+          <li>Fixed a crash looking up data in file lists</li>
+          <li>Fixed a crash if a HTTPS connection gets canceled during the TLS handshake</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.56.2" date="2021-10-27">
       <description>
         <ul>
