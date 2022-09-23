@@ -1,7 +1,7 @@
 {
     "id": "org.filezillaproject.Filezilla",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "21.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "filezilla",
     "rename-icon": "filezilla",
