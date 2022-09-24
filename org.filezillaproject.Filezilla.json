@@ -65,8 +65,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.38.1.tar.bz2",
-                "sha512": "486aa4934f3fde4684c134ac7648edd0dfbd2dd2082909cd8ecafcccf9e3e9a86874c250773bc28ad25a8c40c8d34f242008636efdf4d311764682cf89b6fe39",
+                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.39.1.tar.bz2",
+                "sha512": "b5c4dcaef146ea3e249a4972e66aa441187693bea148f0ead0c08568ecf1856a78c7455cbc70737d82b9c33c2af5d6abe79dd4cb2dfbb65bdcefd6765016dfb6",
                 "x-checker-data": {
                     "type": "anitya",
                     "project-id": "15391",
