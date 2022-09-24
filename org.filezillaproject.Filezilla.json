@@ -97,8 +97,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.60.2_src.tar.bz2",
-                "sha512": "2660d25c2e8390cc34c08a8ad84349c8a5d5245a708223d6d5935579a29568f4276e6672a62ab3a8e187e649f30a436dca0aa1fdc6b4d6e59394f6cad10a299a",
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.61.0_src.tar.bz2",
+                "sha512": "97469bc038eab32f526859ae5db58eeef6f1a8128f67bc653b6b3707b1aa7c9771ef5caa780daa4d11d20d4e7ed8e5df24ef8bd70ee2353f80d77d5410cfa722",
                 "x-checker-data": {
                     "type": "anitya",
                     "project-id": "809",
