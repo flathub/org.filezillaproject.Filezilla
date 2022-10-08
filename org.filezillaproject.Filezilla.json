@@ -69,7 +69,7 @@
                 "sha512": "486aa4934f3fde4684c134ac7648edd0dfbd2dd2082909cd8ecafcccf9e3e9a86874c250773bc28ad25a8c40c8d34f242008636efdf4d311764682cf89b6fe39",
                 "x-checker-data": {
                     "type": "anitya",
-                    "project-id": "15391",
+                    "project-id": 15391,
                     "url-template": "https://download.filezilla-project.org/libfilezilla/libfilezilla-$version0.$version1.$version2.tar.bz2"
                 }
             }
@@ -101,7 +101,7 @@
                 "sha512": "2660d25c2e8390cc34c08a8ad84349c8a5d5245a708223d6d5935579a29568f4276e6672a62ab3a8e187e649f30a436dca0aa1fdc6b4d6e59394f6cad10a299a",
                 "x-checker-data": {
                     "type": "anitya",
-                    "project-id": "809",
+                    "project-id": 809,
                     "url-template": "https://download.filezilla-project.org/client/FileZilla_${version0}.${version1}.${version2}_src.tar.bz2"
                 }
             },
