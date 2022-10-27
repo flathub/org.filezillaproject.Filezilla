@@ -1,7 +1,7 @@
 {
     "id": "org.filezillaproject.Filezilla",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "21.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "filezilla",
     "rename-icon": "filezilla",
@@ -65,8 +65,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.38.1.tar.bz2",
-                "sha512": "486aa4934f3fde4684c134ac7648edd0dfbd2dd2082909cd8ecafcccf9e3e9a86874c250773bc28ad25a8c40c8d34f242008636efdf4d311764682cf89b6fe39",
+                "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.39.2.tar.bz2",
+                "sha512": "ffa0728aaaa90e1561f8ab6bb855bf21068d0a653dd764560064b36efc20b9d0182d97151fb528a7fb26fb2f1779a884d23f1e4cf0b13fa7984e7f3568c9c217",
                 "x-checker-data": {
                     "type": "anitya",
                     "project-id": 15391,
@@ -97,8 +97,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://download.filezilla-project.org/client/FileZilla_3.60.2_src.tar.bz2",
-                "sha512": "2660d25c2e8390cc34c08a8ad84349c8a5d5245a708223d6d5935579a29568f4276e6672a62ab3a8e187e649f30a436dca0aa1fdc6b4d6e59394f6cad10a299a",
+                "url": "https://download.filezilla-project.org/client/FileZilla_3.62.0_src.tar.bz2",
+                "sha512": "4852f81cdaed5fc7bf3acf850ad22c34052099477de09e07115db5f1bd440fd4ec2c04c22c484048e5cd82e4ee3474350a81d91905d0459a98cbedddbe5b6a47",
                 "x-checker-data": {
                     "type": "anitya",
                     "project-id": 809,
