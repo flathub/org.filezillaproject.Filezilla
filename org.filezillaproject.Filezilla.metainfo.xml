@@ -31,17 +31,18 @@
     </ul>
   </description>
   <releases>
-    <release version="3.62.1" date="2022-11-17" />
-    <release version="3.62.0" date="2022-10-27" />
-    <release version="3.61.0" date="2022-09-24" />
-    <release version="3.60.2" date="2022-07-22" />
-    <release version="3.60.1" date="2022-06-01" />
-    <release version="3.60.0" date="2022-05-27" />
-    <release version="3.59.0" date="2022-04-08" />
+    <release version="3.62.2" date="2022-11-22"/>
+    <release version="3.62.1" date="2022-11-17"/>
+    <release version="3.62.0" date="2022-10-27"/>
+    <release version="3.61.0" date="2022-09-24"/>
+    <release version="3.60.2" date="2022-07-22"/>
+    <release version="3.60.1" date="2022-06-01"/>
+    <release version="3.60.0" date="2022-05-27"/>
+    <release version="3.59.0" date="2022-04-08"/>
     <release version="3.58.0" date="2022-02-11">
       <description>
         <ul>
-          <li>Negotiate custom ALPN with FileZilla Server >=1.3.0 during TLS handshake to save some roundtrips during connection establishment</li>
+          <li>Negotiate custom ALPN with FileZilla Server &gt;=1.3.0 during TLS handshake to save some roundtrips during connection establishment</li>
           <li>Prepare FileZilla to support TOTP-based 2FA authentication on future FileZilla Server versions</li>
         </ul>
       </description>
@@ -62,7 +63,7 @@
         </ul>
       </description>
     </release>
-    <release version="3.56.1" date="2021-10-26" />
+    <release version="3.56.1" date="2021-10-26"/>
     <release version="3.56.0" date="2021-10-11">
       <description>
         <ul>
@@ -162,6 +163,6 @@
       <image>https://raw.githubusercontent.com/flathub/org.filezillaproject.Filezilla/master/screenshot.png</image>
     </screenshot>
   </screenshots>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
   <update_contact>tim.kosse@filezilla-project.org</update_contact>
 </component>
