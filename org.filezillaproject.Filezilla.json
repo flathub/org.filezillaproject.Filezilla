@@ -44,7 +44,6 @@
                 "--enable-unicode",
                 "--enable-display",
                 "--enable-propgrid",
-                "--disable-webkit",
                 "--disable-webview",
                 "--disable-webviewwebkit",
                 "--with-expat=builtin",
@@ -56,8 +55,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.5.1/wxWidgets-3.0.5.1.tar.bz2",
-                    "sha256": "440f6e73cf5afb2cbf9af10cec8da6cdd3d3998d527598a53db87099524ac807"
+                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.1/wxWidgets-3.2.1.tar.bz2",
+                    "sha256": "c229976bb413eb88e45cb5dfb68b27890d450149c09b331abd751e7ae0f5fa66"
                 }
             ]
         },
@@ -66,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.39.2.tar.bz2",
-                    "sha512": "ffa0728aaaa90e1561f8ab6bb855bf21068d0a653dd764560064b36efc20b9d0182d97151fb528a7fb26fb2f1779a884d23f1e4cf0b13fa7984e7f3568c9c217",
+                    "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.41.0.tar.bz2",
+                    "sha512": "bda747299807c37c738ee6ade2f926bc500bd3d67de5b84b0201a4769c6c3d0899c3113c93afd88dc9958bc711426d6918af355e2d971c1b12de30304f2a47fc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 15391,
@@ -95,8 +94,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/client/FileZilla_3.62.2_src.tar.bz2",
-                    "sha512": "a7dec07f6b6fe6fe1a54481e67e9ad2cb057bf84db6e6128f5e853f2edac3c34583a84f25c206f382f8bac6fa4ab48ea54a2a2f7efe8cc6c9d18cb1d3eba0255",
+                    "url": "https://download.filezilla-project.org/client/FileZilla_3.63.0_src.tar.bz2",
+                    "sha512": "47065cfbc1944cd9f8b2c4d3b2a2bb1e9e169b083a46d79fe477cc3a628e91241822c739f308ce614212710f431c333f33193b9261f9b5ec677eb8c62a634364",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 809,
