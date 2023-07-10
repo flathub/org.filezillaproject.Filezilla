@@ -4,7 +4,7 @@
 <component type="desktop-application">
   <id>org.filezillaproject.Filezilla</id>
   <name>FileZilla</name>
-  <summary>FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface</summary>
+  <summary>Fast and reliable FTP client</summary>
   <project_license>GPL-2.0-or-later</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <description>
