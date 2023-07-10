@@ -31,6 +31,7 @@
     </ul>
   </description>
   <releases>
+    <release version="3.65.0" date="2023-07-10"/>
     <release version="3.64.0" date="2023-04-26"/>
     <release version="3.63.2" date="2023-02-23"/>
     <release version="3.63.1" date="2023-01-26"/>
@@ -92,65 +93,6 @@
         </ul>
       </description>
     </release>
-    <release version="3.54.1" date="2021-05-13">
-      <description>
-        <ul>
-          <li>Refactored network activity handling, the activity indicators tooltips now display more accurate data</li>
-          <li>Fix control visibility logic in Site Manager</li>
-          <li>Updated SFTP components</li>
-        </ul>
-      </description>
-   </release>
-   <release version="3.53.1" date="2021-03-23">
-      <description>
-        <ul>
-          <li>Removed an error message on new installation where there is no sitemanager.xml yet</li>
-          <li>Fixed SOCKS5 proxy support</li>
-        </ul>
-      </description>
-   </release>
-   <release version="3.53.0" date="2021-03-15">
-      <description>
-        <ul>
-          <li>Require explicit confirmation on FTP servers not supporting TLS session esumption on the data connection</li>
-          <li>Access Grant support for Tardigrade</li>
-        </ul>
-      </description>
-   </release>
-   <release version="3.52.2" date="2021-01-18">
-      <description>
-        <ul>
-          <li>When restoring the main window position at startup, detect if the title bar would become hidden behind taskbars or global menu bars and reposition it appropriately</li>
-          <li>SFTP: Fixed preserving of timestamps on downloads</li>
-        </ul>
-      </description>
-    </release>
-    <release version="3.52.0" date="2021-01-04">
-      <description>
-        <ul>
-          <li>Added context menu item in the search dialog to close the search and set the selected directory as the current local/remote directory</li>
-          <li>Use asynchronous file readers/writers in the engine</li>
-        </ul>
-      </description>
-    </release>
-    <release version="3.51.0" date="2020-10-20">
-        <description>
-          <ul>
-            <li>Fixed import of sites protected with a different master password</li>
-            <li>Directory comparison now works correctly with non-default file name sorting settings</li>
-            <li>Linux: Disable receive buffer tuning if it results in unexpected consequences</li>
-          </ul>
-        </description>
-      </release>
-      <release version="3.50.0" date="2020-08-27">
-        <description>
-          <ul>
-            <li>Minor fixes to Tardigrade integration</li>
-            <li>Fix layout issues in the Site Manager if switching protocol</li>
-            <li>Restored natural sort option for file list sorting</li>
-          </ul>
-        </description>
-      </release>
   </releases>
   <url type="homepage">https://filezilla-project.org/</url>
   <url type="bugtracker">https://trac.filezilla-project.org/</url>
