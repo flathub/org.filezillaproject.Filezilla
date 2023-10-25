@@ -1,7 +1,7 @@
 {
     "id": "org.filezillaproject.Filezilla",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "filezilla",
     "rename-icon": "filezilla",
@@ -76,8 +76,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.2.1/wxWidgets-3.2.2.1.tar.bz2",
-                    "sha256": "dffcb6be71296fff4b7f8840eb1b510178f57aa2eb236b20da41182009242c02"
+                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.3/wxWidgets-3.2.3.tar.bz2",
+                    "sha256": "c170ab67c7e167387162276aea84e055ee58424486404bba692c401730d1a67a"
                 }
             ]
         },
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.44.0.tar.xz",
-                    "sha512": "44547cfce1c2b33cbddbd3c7150613d050c9d6f1130e7969b0ad26e96d4e18a0a7251ca045e1dba1442a1d9c7f19e463b5eab7985a0cc98e652caf79809d291f"
+                    "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.45.0.tar.xz",
+                    "sha512": "304838e8cf6e644378c0727bc8b9d2f87287a646db4cb765a04d156717f8c233b8a34085049e4893ec345a1a1d576f0ba33df705dee022e16ff433cddd926ce0"
                 }
             ]
         },
@@ -110,8 +110,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/client/FileZilla_3.65.0_src.tar.xz",
-                    "sha512": "8fb2862eaa7aa4331a095e67335f8e2805936f4866c49f617bdfb819638ecdcbc94e15e8810d90c2eb56e04f0100b8deeb5b691a45012896963ea4ba59644d04"
+                    "url": "https://download.filezilla-project.org/client/FileZilla_3.66.0_src.tar.xz",
+                    "sha512": "8772987ed0772cb23f2ff15f7a9d8b24d9086b6f24d83c9aa430cbbb7c3e3b8fe209116ae590836e708db1a985539d214cd219413485823a7cc031462e20326d"
                 },
                 {
                     "type": "file",
