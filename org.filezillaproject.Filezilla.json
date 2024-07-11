@@ -86,6 +86,13 @@
             "name": "libfilezilla",
             "sources": [
                 {
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://lib.filezilla-project.org/download.php",
+                        "version-pattern": "The latest stable version of libfilezilla is ([\\d\\.-]*)",
+                        "url-template": "https://download.filezilla-project.org/libfilezilla/libfilezilla-${version}.tar.xz",
+                        "is-important": true
+                    },
                     "type": "archive",
                     "url": "http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.49.0.orig.tar.xz",
                     "sha512": "5e77cf9371468f8760baa351108374187d89777244845386d4cc46d2bd03d52285379cd55902c91dad1167ac58892c9fd7c94d6596ef1710e8116dd1f9721eca"
