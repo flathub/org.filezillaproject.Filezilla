@@ -8,6 +8,10 @@
   <project_license>GPL-2.0-or-later</project_license>
   <name>FileZilla</name>
   <summary>Graphical FTP, FTPS and SFTP client</summary>
+  <developer id="org.filezilla-project">
+    <name>Tim Kosse</name>
+  </developer>
+  <developer_name>Tim Kosse</developer_name>
   <description>
     <p>FileZilla is a graphical FTP, FTPS and SFTP client. It is platform independent and supports all major desktop operating systems.</p>
     <ul>
