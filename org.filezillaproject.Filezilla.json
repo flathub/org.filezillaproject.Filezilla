@@ -87,8 +87,8 @@
                         "url-query": ".assets[] | select(.name==\"wxWidgets-\" + $version + \".tar.bz2\") | .browser_download_url"
                     },
                     "type": "archive",
-                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.3/wxWidgets-3.2.3.tar.bz2",
-                    "sha256": "c170ab67c7e167387162276aea84e055ee58424486404bba692c401730d1a67a"
+                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.5/wxWidgets-3.2.5.tar.bz2",
+                    "sha256": "0ad86a3ad3e2e519b6a705248fc9226e3a09bbf069c6c692a02acf7c2d1c6b51"
                 }
             ]
         },
