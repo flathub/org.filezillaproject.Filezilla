@@ -104,8 +104,8 @@
                         "is-important": true
                     },
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.45.0.tar.xz",
-                    "sha512": "304838e8cf6e644378c0727bc8b9d2f87287a646db4cb765a04d156717f8c233b8a34085049e4893ec345a1a1d576f0ba33df705dee022e16ff433cddd926ce0"
+                    "url": "http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.48.0.orig.tar.xz",
+                    "sha512": "3420333daa38ed00c4f7b44fe4e31b6290ec238a4e133238f302ef4e1228c2058a8b44fbc9d114bcd7ed2322647a0faed08eadb93d2b78c31216d39f0146c222"
                 }
             ]
         },
