@@ -120,6 +120,13 @@
             ],
             "sources": [
                 {
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://filezilla-project.org/download.php?show_all=1",
+                        "version-pattern": "The latest stable version of FileZilla Client is ([\\d\\.-]*)",
+                        "url-template": "https://download.filezilla-project.org/client/FileZilla_${version}_src.tar.xz",
+                        "is-main-source": true
+                    },
                     "type": "archive",
                     "url": "https://download.filezilla-project.org/client/FileZilla_3.66.1_src.tar.xz",
                     "sha512": "2c038bb179e29f96062ee1f871571ed2669689af470ab86ecf9eef8e76ff90c44dc9940506c6ab5b100453811e13546c6c25eb6389b0f7a7e2c61c21c36fdb34"
