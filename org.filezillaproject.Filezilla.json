@@ -88,9 +88,9 @@
                 {
                     "x-checker-data": {
                         "type": "html",
-                        "url": "https://lib.filezilla-project.org/download.php",
-                        "version-pattern": "The latest stable version of libfilezilla is ([\\d\\.-]*)",
-                        "url-template": "https://download.filezilla-project.org/libfilezilla/libfilezilla-${version}.tar.xz",
+                        "//": "filezilla-project.org blocks fedc user agent",
+                        "url": "https://packages.debian.org/source/sid/libfilezilla",
+                        "pattern": "<a href=\"(http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_([^\"]+).orig.tar.xz)\">",
                         "is-important": true
                     },
                     "type": "archive",
@@ -119,9 +119,9 @@
                 {
                     "x-checker-data": {
                         "type": "html",
-                        "url": "https://filezilla-project.org/download.php?show_all=1",
-                        "version-pattern": "The latest stable version of FileZilla Client is ([\\d\\.-]*)",
-                        "url-template": "https://download.filezilla-project.org/client/FileZilla_${version}_src.tar.xz",
+                        "//": "filezilla-project.org blocks fedc user agent",
+                        "url": "https://packages.debian.org/source/sid/filezilla",
+                        "pattern": "<a href=\"(http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_([^\"]+).orig.tar.xz)\">",
                         "is-main-source": true
                     },
                     "type": "archive",
