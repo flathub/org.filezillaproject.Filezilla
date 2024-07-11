@@ -3,10 +3,11 @@
 <!-- Copyright 2016 Tim Kosse <tim.kosse@filezilla-project.org> -->
 <component type="desktop-application">
   <id>org.filezillaproject.Filezilla</id>
-  <name>FileZilla</name>
-  <summary>Fast and reliable FTP client</summary>
-  <project_license>GPL-2.0-or-later</project_license>
+  <launchable type="desktop-id">org.filezillaproject.Filezilla.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  <name>FileZilla</name>
+  <summary>Graphical FTP, FTPS and SFTP client</summary>
   <description>
     <p>FileZilla is a graphical FTP, FTPS and SFTP client. It is platform independent and supports all major desktop operating systems.</p>
     <ul>
@@ -49,21 +50,20 @@
     <release version="3.60.1" date="2022-06-01"/>
     <release version="3.60.0" date="2022-05-27"/>
   </releases>
-  <url type="homepage">https://filezilla-project.org/</url>
-  <url type="bugtracker">https://trac.filezilla-project.org/</url>
-  <url type="faq">https://wiki.filezilla-project.org/FAQ</url>
-  <url type="help">https://filezilla-project.org/support.php</url>
-  <url type="translate">https://filezilla-project.org/translations.php</url>
-  <launchable type="desktop-id">org.filezillaproject.Filezilla.desktop</launchable>
-  <provides>
-    <id>org.filezilla-project.FileZilla</id>
-    <id>filezilla.desktop</id>
-  </provides>
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/flathub/org.filezillaproject.Filezilla/master/screenshot.png</image>
     </screenshot>
   </screenshots>
+  <provides>
+    <id>org.filezilla-project.FileZilla</id>
+    <id>filezilla.desktop</id>
+  </provides>
   <content_rating type="oars-1.1"/>
+  <url type="homepage">https://filezilla-project.org/</url>
+  <url type="bugtracker">https://trac.filezilla-project.org/</url>
+  <url type="faq">https://wiki.filezilla-project.org/FAQ</url>
+  <url type="help">https://filezilla-project.org/support.php</url>
+  <url type="translate">https://filezilla-project.org/translations.php</url>
   <update_contact>tim.kosse@filezilla-project.org</update_contact>
 </component>
