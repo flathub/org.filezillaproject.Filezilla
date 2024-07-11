@@ -28,27 +28,27 @@
     ],
     "modules": [
         "shared-modules/glu/glu-9.json",
-    	{
-		"name": "boost",
-		"sources": [
-		{
-		  "type": "archive",
-		  "url": "https://boostorg.jfrog.io/artifactory/main/release/1.82.0/source/boost_1_82_0.tar.bz2",
-		  "sha256": "a6e1ab9b0860e6a2881dd7b21fe9f737a095e5f33a3a874afc6a345228597ee6"
-		}
-		],
-		"buildsystem": "simple",
-		"build-commands": [
-		"./bootstrap.sh",
-		"./b2 install --prefix=/app/ variant=release link=static threading=multi --with-regex -j $FLATPAK_BUILDER_N_JOBS"
-		],
-		"cleanup": [
-		"/lib/",
-		"/lib/debug",
-		"/include",
-		""
-		]
-    	},
+        {
+            "name": "boost",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.82.0/source/boost_1_82_0.tar.bz2",
+                    "sha256": "a6e1ab9b0860e6a2881dd7b21fe9f737a095e5f33a3a874afc6a345228597ee6"
+                }
+            ],
+            "buildsystem": "simple",
+            "build-commands": [
+                "./bootstrap.sh",
+                "./b2 install --prefix=/app/ variant=release link=static threading=multi --with-regex -j $FLATPAK_BUILDER_N_JOBS"
+            ],
+            "cleanup": [
+                "/lib/",
+                "/lib/debug",
+                "/include",
+                ""
+            ]
+        },
         {
             "name": "wxWidgets",
             "cleanup": [
