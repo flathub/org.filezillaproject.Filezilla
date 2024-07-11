@@ -110,6 +110,13 @@
             ],
             "sources": [
                 {
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://filezilla-project.org/download.php?show_all=1",
+                        "version-pattern": "The latest stable version of FileZilla Client is ([\\d\\.-]*)",
+                        "url-template": "https://download.filezilla-project.org/client/FileZilla_${version}_src.tar.xz",
+                        "is-main-source": true
+                    },
                     "type": "archive",
                     "url": "http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_3.68.1.orig.tar.xz",
                     "sha512": "b8cd7a524c13753118f8c48b0f4063a3459d119efe2bfd11c0ca40e35573885e2cae85007e7958d6eec4bcbdd557eba76bcaa72a922d3bd4f85385fc06d0df6b"
