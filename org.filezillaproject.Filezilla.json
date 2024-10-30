@@ -16,6 +16,7 @@
         "--talk-name=org.gnome.SessionManager",
         "--filesystem=host",
         "--share=network",
+	"--share=ipc",    
         "--require-version=0.10.3",
         "--socket=ssh-auth"
     ],
