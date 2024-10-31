@@ -87,7 +87,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.49.0.tar.xz",
+                    "url": "http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.49.0.orig.tar.xz",
                     "sha512": "059f3132127e643aca280457302a17794e44a5aaa66c49f1edf6927d3146df75ebab3088f1728c4127bbeee793428d35245b486305e074cd8ba2ceca20424afd"
                 }
             ]
@@ -111,7 +111,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/client/FileZilla_3.67.1_src.tar.xz",
+                    "url": "http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_3.68.0~rc1.orig.tar.xz",
                     "sha512": "059f3132127e643aca280457302a17794e44a5aaa66c49f1edf6927d3146df75ebab3088f1728c4127bbeee793428d35245b486305e074cd8ba2ceca20424afd"
                 },
                 {
