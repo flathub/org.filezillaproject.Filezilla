@@ -88,7 +88,7 @@
                 {
                     "type": "archive",
                     "url": "http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.49.0.orig.tar.xz",
-                    "sha512": "059f3132127e643aca280457302a17794e44a5aaa66c49f1edf6927d3146df75ebab3088f1728c4127bbeee793428d35245b486305e074cd8ba2ceca20424afd"
+                    "sha512": "5e77cf9371468f8760baa351108374187d89777244845386d4cc46d2bd03d52285379cd55902c91dad1167ac58892c9fd7c94d6596ef1710e8116dd1f9721eca"
                 }
             ]
         },
