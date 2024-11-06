@@ -112,7 +112,7 @@
                 {
                     "type": "archive",
                     "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/filezilla/3.68.0-1/filezilla_3.68.0.orig.tar.xz",
-                    "sha512": "9a46046f6ebfeb0e4526985e11fa987fbce1125bd54303ccd07ac6f6d824215c474515ac7d35d0a31a77da4dd129be5cf48a1e123750e2b222d775d0999d54b6"
+                    "sha512": "a31bc38dc9d28149070f01695b1d0395a9b57b806bccd8fd1c6b79d29bdbe78fafbbe0b2026e57ef0bfca55675784b382487219c6c929e0a678e4f80583f0619"
                 },
                 {
                     "type": "file",
