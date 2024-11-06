@@ -87,7 +87,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.49.0.orig.tar.xz",
+                    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libfilezilla/0.49.0-2/libfilezilla_0.49.0.orig.tar.xz",
                     "sha512": "5e77cf9371468f8760baa351108374187d89777244845386d4cc46d2bd03d52285379cd55902c91dad1167ac58892c9fd7c94d6596ef1710e8116dd1f9721eca"
                 }
             ]
@@ -111,7 +111,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_3.68.0~rc1.orig.tar.xz",
+                    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/filezilla/3.68.0-1/filezilla_3.68.0.orig.tar.xz",
                     "sha512": "9a46046f6ebfeb0e4526985e11fa987fbce1125bd54303ccd07ac6f6d824215c474515ac7d35d0a31a77da4dd129be5cf48a1e123750e2b222d775d0999d54b6"
                 },
                 {
