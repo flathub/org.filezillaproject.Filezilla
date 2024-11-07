@@ -7,6 +7,7 @@
   <summary>Fast and reliable FTP client</summary>
   <project_license>GPL-2.0-or-later</project_license>
   <metadata_license>CC0-1.0</metadata_license>
+  <developer_name>Tim Kosse</developer_name> <!-- Added developer name -->
   <description>
     <p>FileZilla is a graphical FTP, FTPS and SFTP client. It is platform independent and supports all major desktop operating systems.</p>
     <ul>
@@ -59,6 +60,7 @@
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/flathub/org.filezillaproject.Filezilla/master/screenshot.png</image>
+      <caption>Main screen of FileZilla</caption> <!-- Added caption -->
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
