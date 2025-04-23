@@ -8,6 +8,7 @@
     "copy-icon": true,
     "rename-desktop-file": "filezilla.desktop",
     "finish-args": [
+        "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland",
