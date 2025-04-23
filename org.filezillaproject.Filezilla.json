@@ -1,7 +1,7 @@
 {
     "id": "org.filezillaproject.Filezilla",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
+    "runtime-version": "24.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "filezilla",
     "rename-icon": "filezilla",
@@ -28,27 +28,27 @@
     ],
     "modules": [
         "shared-modules/glu/glu-9.json",
-    	{
-		"name": "boost",
-		"sources": [
-		{
-		  "type": "archive",
-		  "url": "https://archives.boost.io/release/1.82.0/source/boost_1_82_0.tar.bz2",
-		  "sha256": "a6e1ab9b0860e6a2881dd7b21fe9f737a095e5f33a3a874afc6a345228597ee6"
-		}
-		],
-		"buildsystem": "simple",
-		"build-commands": [
-		"./bootstrap.sh",
-		"./b2 install --prefix=/app/ variant=release link=static threading=multi --with-regex -j $FLATPAK_BUILDER_N_JOBS"
-		],
-		"cleanup": [
-		"/lib/",
-		"/lib/debug",
-		"/include",
-		""
-		]
-    	},
+        {
+            "name": "boost",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://archives.boost.io/release/1.87.0/source/boost_1_87_0.tar.bz2",
+                    "sha256": "af57be25cb4c4f4b413ed692fe378affb4352ea50fbe294a11ef548f4d527d89"
+                }
+            ],
+            "buildsystem": "simple",
+            "build-commands": [
+                "./bootstrap.sh",
+                "./b2 install --prefix=/app/ variant=release link=static threading=multi --with-regex -j $FLATPAK_BUILDER_N_JOBS"
+            ],
+            "cleanup": [
+                "/lib/",
+                "/lib/debug",
+                "/include",
+                ""
+            ]
+        },
         {
             "name": "wxWidgets",
             "cleanup": [
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.45.0.tar.xz",
-                    "sha512": "304838e8cf6e644378c0727bc8b9d2f87287a646db4cb765a04d156717f8c233b8a34085049e4893ec345a1a1d576f0ba33df705dee022e16ff433cddd926ce0"
+                    "url": "https://dl4.cdn.filezilla-project.org/libfilezilla/libfilezilla-0.50.0.tar.xz?h=FYDGRaWSggu9KF5EBOcu4g&x=1745448378",
+                    "sha512": "ed12159d176da0019479fc3d2f129dbf959237340dbfe8fa6871ae2f1f038f64cf672eb25680e69304820f9003b03957a9ba7c2cdad1bd918dbf3ee630380608"
                 }
             ]
         },
@@ -110,8 +110,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/client/FileZilla_3.66.1_src.tar.xz",
-                    "sha512": "2c038bb179e29f96062ee1f871571ed2669689af470ab86ecf9eef8e76ff90c44dc9940506c6ab5b100453811e13546c6c25eb6389b0f7a7e2c61c21c36fdb34"
+                    "url": "https://dl3.cdn.filezilla-project.org/client/FileZilla_3.69.1_src.tar.xz?h=XJmTtcDp0e56eIS0CFT_Kw&x=1745449283",
+                    "sha512": "fab138ae8a9ea50caccfb1f5b5516e4a196b4f0c6c73299d16f94a5999c192241fe50b811a5b3b1e93ab4d36eb53a4ba58003592a41a61b70c2318de72c34704"
                 },
                 {
                     "type": "file",
