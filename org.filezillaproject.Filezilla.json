@@ -1,13 +1,14 @@
 {
     "id": "org.filezillaproject.Filezilla",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
+    "runtime-version": "24.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "filezilla",
     "rename-icon": "filezilla",
     "copy-icon": true,
     "rename-desktop-file": "filezilla.desktop",
     "finish-args": [
+        "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland",
@@ -28,27 +29,27 @@
     ],
     "modules": [
         "shared-modules/glu/glu-9.json",
-    	{
-		"name": "boost",
-		"sources": [
-		{
-		  "type": "archive",
-		  "url": "https://boostorg.jfrog.io/artifactory/main/release/1.82.0/source/boost_1_82_0.tar.bz2",
-		  "sha256": "a6e1ab9b0860e6a2881dd7b21fe9f737a095e5f33a3a874afc6a345228597ee6"
-		}
-		],
-		"buildsystem": "simple",
-		"build-commands": [
-		"./bootstrap.sh",
-		"./b2 install --prefix=/app/ variant=release link=static threading=multi --with-regex -j $FLATPAK_BUILDER_N_JOBS"
-		],
-		"cleanup": [
-		"/lib/",
-		"/lib/debug",
-		"/include",
-		""
-		]
-    	},
+        {
+            "name": "boost",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://archives.boost.io/release/1.87.0/source/boost_1_87_0.tar.bz2",
+                    "sha256": "af57be25cb4c4f4b413ed692fe378affb4352ea50fbe294a11ef548f4d527d89"
+                }
+            ],
+            "buildsystem": "simple",
+            "build-commands": [
+                "./bootstrap.sh",
+                "./b2 install --prefix=/app/ variant=release link=static threading=multi --with-regex -j $FLATPAK_BUILDER_N_JOBS"
+            ],
+            "cleanup": [
+                "/lib/",
+                "/lib/debug",
+                "/include",
+                ""
+            ]
+        },
         {
             "name": "wxWidgets",
             "cleanup": [
@@ -86,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/libfilezilla/libfilezilla-0.45.0.tar.xz",
-                    "sha512": "304838e8cf6e644378c0727bc8b9d2f87287a646db4cb765a04d156717f8c233b8a34085049e4893ec345a1a1d576f0ba33df705dee022e16ff433cddd926ce0"
+                    "url": "http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.49.0.orig.tar.xz",
+                    "sha512": "5e77cf9371468f8760baa351108374187d89777244845386d4cc46d2bd03d52285379cd55902c91dad1167ac58892c9fd7c94d6596ef1710e8116dd1f9721eca"
                 }
             ]
         },
@@ -110,8 +111,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.filezilla-project.org/client/FileZilla_3.66.1_src.tar.xz",
-                    "sha512": "2c038bb179e29f96062ee1f871571ed2669689af470ab86ecf9eef8e76ff90c44dc9940506c6ab5b100453811e13546c6c25eb6389b0f7a7e2c61c21c36fdb34"
+                    "url": "http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_3.68.1.orig.tar.xz",
+                    "sha512": "b8cd7a524c13753118f8c48b0f4063a3459d119efe2bfd11c0ca40e35573885e2cae85007e7958d6eec4bcbdd557eba76bcaa72a922d3bd4f85385fc06d0df6b"
                 },
                 {
                     "type": "file",
