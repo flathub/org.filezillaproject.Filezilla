@@ -17,7 +17,6 @@
     "--talk-name=org.gnome.SessionManager",
     "--filesystem=host",
     "--share=network",
-    "--require-version=0.10.3",
     "--socket=ssh-auth"
   ],
   "cleanup": [
@@ -43,7 +42,7 @@
         "./bootstrap.sh",
         "./b2 install --prefix=/app/ variant=release link=static threading=multi --with-regex -j $FLATPAK_BUILDER_N_JOBS"
       ],
-      "cleanup": ["/lib/", "/lib/debug", "/include", ""]
+      "cleanup": ["/lib/", ""]
     },
     {
       "name": "wxWidgets",
@@ -107,8 +106,7 @@
       "cleanup": ["/share/pixmaps", "/share/man"],
       "post-install": [
         "install -Dm644 org.filezillaproject.Filezilla.metainfo.xml ${FLATPAK_DEST}/share/metainfo/org.filezillaproject.Filezilla.metainfo.xml",
-        "rm /app/share/appdata/filezilla.appdata.xml",
-        "for size in 64 128 256 512; do\n              rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/filezilla.svg\n              install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/filezilla.png\n            done"
+        "rm /app/share/appdata/filezilla.appdata.xml"
       ],
       "sources": [
         {
