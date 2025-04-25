@@ -1,6 +1,13 @@
---- a/data/filezilla.desktop	2016-01-13 00:54:34.222925070 +0100
-+++ b/data/filezilla.desktop	2016-01-13 12:55:29.670678086 +0100
-@@ -12,3 +12,4 @@
+--- a/data/filezilla.desktop	2024-07-11 22:25:19.068173429 +0100
++++ b/data/filezilla.desktop	2024-07-11 22:27:05.125448402 +0100
+@@ -8,9 +8,10 @@
+ Comment[da]=Download og upload filer via FTP, FTPS og SFTP
+ Comment[de]=Dateien über FTP, FTPS und SFTP übertragen
+ Comment[fr]=Transférer des fichiers via FTP, FTPS et SFTP
+-Exec=filezilla
++Exec=filezilla %u
+ Terminal=false
+ Icon=filezilla
  Type=Application
  Categories=Network;FileTransfer;
  Version=1.0
