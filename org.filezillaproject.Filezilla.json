@@ -92,6 +92,13 @@
             "name": "libfilezilla",
             "sources": [
                 {
+                    "x-checker-data": {
+                        "type": "html",
+                        "//": "filezilla-project.org blocks fedc user agent",
+                        "url": "https://packages.debian.org/source/sid/libfilezilla",
+                        "pattern": "<a href=\"(http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_([^\"]+).orig.tar.xz)\">",
+                        "is-important": true
+                    },
                     "type": "archive",
                     "url": "http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.49.0.orig.tar.xz",
                     "sha512": "5e77cf9371468f8760baa351108374187d89777244845386d4cc46d2bd03d52285379cd55902c91dad1167ac58892c9fd7c94d6596ef1710e8116dd1f9721eca"
@@ -116,6 +123,13 @@
             ],
             "sources": [
                 {
+                    "x-checker-data": {
+                        "type": "html",
+                        "//": "filezilla-project.org blocks fedc user agent",
+                        "url": "https://packages.debian.org/source/sid/filezilla",
+                        "pattern": "<a href=\"(http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_([^\"]+).orig.tar.xz)\">",
+                        "is-main-source": true
+                    },
                     "type": "archive",
                     "url": "http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_3.68.1.orig.tar.xz",
                     "sha512": "b8cd7a524c13753118f8c48b0f4063a3459d119efe2bfd11c0ca40e35573885e2cae85007e7958d6eec4bcbdd557eba76bcaa72a922d3bd4f85385fc06d0df6b"
