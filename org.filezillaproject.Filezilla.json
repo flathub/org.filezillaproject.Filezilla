@@ -65,7 +65,6 @@
                 "--with-libpng",
                 "--with-zlib",
                 "--disable-sdltest",
-                "--enable-unicode",
                 "--enable-display",
                 "--enable-propgrid",
                 "--disable-webview",
@@ -85,8 +84,8 @@
                         "url-query": ".assets[] | select(.name==\"wxWidgets-\" + $version + \".tar.bz2\") | .browser_download_url"
                     },
                     "type": "archive",
-                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.8/wxWidgets-3.2.8.tar.bz2",
-                    "sha256": "c74784904109d7229e6894c85cfa068f1106a4a07c144afd78af41f373ee0fe6"
+                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.1/wxWidgets-3.3.1.tar.bz2",
+                    "sha256": "f936c8d694f9c49a367a376f99c751467150a4ed7cbf8f4723ef19b2d2d9998d"
                 }
             ]
         },
