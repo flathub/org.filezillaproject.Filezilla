@@ -65,7 +65,6 @@
                 "--with-libpng",
                 "--with-zlib",
                 "--disable-sdltest",
-                "--enable-unicode",
                 "--enable-display",
                 "--enable-propgrid",
                 "--disable-webview",
