@@ -67,4 +67,13 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <update_contact>tim.kosse@filezilla-project.org</update_contact>
+  <keywords>
+    <keyword>ftp client</keyword>
+    <keyword>file transfer</keyword>
+    <keyword>sftp client</keyword>
+  </keywords>
+  <branding>
+    <color type="primary" scheme_preference="light">#FF69B4</color>
+    <color type="primary" scheme_preference="dark">#6A1B4E</color>
+  </branding>
 </component>
