@@ -38,8 +38,8 @@
                         "url-template": "https://archives.boost.io/release//$version/source/boost_${major}_${minor}_${patch}.tar.bz2"
                     },
                     "type": "archive",
-                    "url": "https://archives.boost.io/release//1.88.0/source/boost_1_88_0.tar.bz2",
-                    "sha256": "46d9d2c06637b219270877c9e16155cbd015b6dc84349af064c088e9b5b12f7b"
+                    "url": "https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2",
+                    "sha256": "85a33fa22621b4f314f8e85e1a5e2a9363d22e4f4992925d4bb3bc631b5a0c7a"
                 }
             ],
             "buildsystem": "simple",
@@ -102,8 +102,8 @@
                         "is-important": true
                     },
                     "type": "archive",
-                    "url": "http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.51.1.orig.tar.xz",
-                    "sha512": "9f686a5be076321a2db8b980d67a31f3c52726ea5d1550d44381c0c18a862056ee6669f5d7f5a67077f9283c04ceba3425c5b087e24d62671af8d68e4568442f"
+                    "url": "https://ftp.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.52.0.orig.tar.xz",
+                    "sha512": "373d25bda6053667b1b2bd73359ff71fc6d45acb287712f650c07dc0a4c219a2d6ebdc614e38a767f62696c12e0cf53c8e72e5a2d72f437740373b02237cb349"
                 }
             ]
         },
@@ -132,8 +132,8 @@
                         "is-main-source": true
                     },
                     "type": "archive",
-                    "url": "http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_3.69.3.orig.tar.xz",
-                    "sha512": "d5adb7d5d1feaba473686c2da4856a1c5acc3dab64f5c6b28f2eecf9e14d9887c7f30f721a2135133a38cd860e38329e898cb5bb3a750091b35dbef4f8cf5d21"
+                    "url": "https://ftp.debian.org/debian/pool/main/f/filezilla/filezilla_3.69.5.orig.tar.xz",
+                    "sha512": "ef31535d8c1ca21c37577f30c2960c3cddec35a993d398460f105e2c8cfecb1c517cc092ce4042e4cde49b255afdeb245db1007d88a6bfdc8901afdde991db82"
                 },
                 {
                     "type": "file",
