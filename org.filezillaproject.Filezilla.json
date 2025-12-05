@@ -128,7 +128,7 @@
                         "type": "html",
                         "//": "filezilla-project.org blocks fedc user agent",
                         "url": "https://packages.debian.org/source/sid/filezilla",
-                        "pattern": "<a href=\"(http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_([^\"]+).orig.tar.xz)\">",
+                        "pattern": "<a href=\"(http:\/\/deb\.debian\.org\/debian\/pool\/main\/f\/filezilla\/filezilla_([^\"]+)\.orig\.tar\.xz)\">",
                         "is-main-source": true
                     },
                     "type": "archive",
