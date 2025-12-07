@@ -38,7 +38,7 @@
                         "url-template": "https://archives.boost.io/release//$version/source/boost_${major}_${minor}_${patch}.tar.bz2"
                     },
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2",
+                    "url": "https://archives.boost.io/release//1.89.0/source/boost_1_89_0.tar.bz2",
                     "sha256": "85a33fa22621b4f314f8e85e1a5e2a9363d22e4f4992925d4bb3bc631b5a0c7a"
                 }
             ],
@@ -85,8 +85,8 @@
                         "url-query": ".assets[] | select(.name==\"wxWidgets-\" + $version + \".tar.bz2\") | .browser_download_url"
                     },
                     "type": "archive",
-                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.8.1/wxWidgets-3.2.8.1.tar.bz2",
-                    "sha256": "ad0cf6c18815dcf1a6a89ad3c3d21a306cd7b5d99a602f77372ef1d92cb7d756"
+                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.1/wxWidgets-3.3.1.tar.bz2",
+                    "sha256": "f936c8d694f9c49a367a376f99c751467150a4ed7cbf8f4723ef19b2d2d9998d"
                 }
             ]
         },
@@ -98,11 +98,11 @@
                         "type": "html",
                         "//": "filezilla-project.org blocks fedc user agent",
                         "url": "https://packages.debian.org/source/sid/libfilezilla",
-                        "pattern": "<a href=\"(http:\/\/deb\.debian\.org\/debian\/pool\/main\/libf\/libfilezilla\/libfilezilla_([^\"]+)\.orig\.tar\.xz)\">",
+                        "pattern": "<a href=\"(http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_([^\"]+).orig.tar.xz)\">",
                         "is-important": true
                     },
                     "type": "archive",
-                    "url": "https://ftp.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.52.0.orig.tar.xz",
+                    "url": "http://deb.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.52.0.orig.tar.xz",
                     "sha512": "373d25bda6053667b1b2bd73359ff71fc6d45acb287712f650c07dc0a4c219a2d6ebdc614e38a767f62696c12e0cf53c8e72e5a2d72f437740373b02237cb349"
                 }
             ]
@@ -128,11 +128,11 @@
                         "type": "html",
                         "//": "filezilla-project.org blocks fedc user agent",
                         "url": "https://packages.debian.org/source/sid/filezilla",
-                        "pattern": "<a href=\"(http:\/\/deb\.debian\.org\/debian\/pool\/main\/f\/filezilla\/filezilla_([^\"]+)\.orig\.tar\.xz)\">",
+                        "pattern": "<a href=\"(http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_([^\"]+).orig.tar.xz)\">",
                         "is-main-source": true
                     },
                     "type": "archive",
-                    "url": "https://ftp.debian.org/debian/pool/main/f/filezilla/filezilla_3.69.5.orig.tar.xz",
+                    "url": "http://deb.debian.org/debian/pool/main/f/filezilla/filezilla_3.69.5.orig.tar.xz",
                     "sha512": "ef31535d8c1ca21c37577f30c2960c3cddec35a993d398460f105e2c8cfecb1c517cc092ce4042e4cde49b255afdeb245db1007d88a6bfdc8901afdde991db82"
                 },
                 {

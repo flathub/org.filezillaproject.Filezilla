@@ -32,6 +32,9 @@
     </ul>
   </description>
   <releases>
+    <release version="3.69.5" date="2025-11-14">
+      <description></description>
+    </release>
     <release version="3.69.5" date="2025-11-12"/>
     <release version="3.69.3" date="2025-07-31"/>
     <release version="3.68.1" date="2024-11-04"/>
