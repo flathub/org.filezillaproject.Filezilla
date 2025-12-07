@@ -35,7 +35,7 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
-                        "url-template": "https://archives.boost.io/release//$version/source/boost_${major}_${minor}_${patch}.tar.bz2"
+                        "url-template": "https://archives.boost.io/release/$version/source/boost_${major}_${minor}_${patch}.tar.bz2"
                     },
                     "type": "archive",
                     "url": "https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2",
