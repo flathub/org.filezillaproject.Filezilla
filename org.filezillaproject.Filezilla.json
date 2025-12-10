@@ -38,8 +38,8 @@
                         "url-template": "https://archives.boost.io/release/$version/source/boost_${major}_${minor}_${patch}.tar.bz2"
                     },
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2",
-                    "sha256": "85a33fa22621b4f314f8e85e1a5e2a9363d22e4f4992925d4bb3bc631b5a0c7a"
+                    "url": "https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2",
+                    "sha256": "49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305"
                 }
             ],
             "buildsystem": "simple",
@@ -85,8 +85,8 @@
                         "url-query": ".assets[] | select(.name==\"wxWidgets-\" + $version + \".tar.bz2\") | .browser_download_url"
                     },
                     "type": "archive",
-                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.8.1/wxWidgets-3.2.8.1.tar.bz2",
-                    "sha256": "ad0cf6c18815dcf1a6a89ad3c3d21a306cd7b5d99a602f77372ef1d92cb7d756"
+                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.1/wxWidgets-3.3.1.tar.bz2",
+                    "sha256": "f936c8d694f9c49a367a376f99c751467150a4ed7cbf8f4723ef19b2d2d9998d"
                 }
             ]
         },
@@ -98,7 +98,7 @@
                         "type": "html",
                         "//": "filezilla-project.org blocks fedc user agent",
                         "url": "https://packages.debian.org/source/sid/libfilezilla",
-                        "pattern": "<a href=\"(https:\/\/ftp\.debian\.org\/debian\/pool\/main\/libf\/libfilezilla\/libfilezilla_([^\"]+)\.orig\.tar\.xz)\">",
+                        "pattern": "<a href=\"(https://ftp.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_([^\"]+).orig.tar.xz)\">",
                         "is-important": true
                     },
                     "type": "archive",
@@ -128,7 +128,7 @@
                         "type": "html",
                         "//": "filezilla-project.org blocks fedc user agent",
                         "url": "https://packages.debian.org/source/sid/filezilla",
-                        "pattern": "<a href=\"(https:\/\/ftp\.debian\.org\/debian\/pool\/main\/f\/filezilla\/filezilla_([^\"]+)\.orig\.tar\.xz)\">",
+                        "pattern": "<a href=\"(https://ftp.debian.org/debian/pool/main/f/filezilla/filezilla_([^\"]+).orig.tar.xz)\">",
                         "is-main-source": true
                     },
                     "type": "archive",
