@@ -1,153 +1,153 @@
 {
-  "id": "org.filezillaproject.Filezilla",
-  "runtime": "org.freedesktop.Platform",
-  "runtime-version": "25.08",
-  "sdk": "org.freedesktop.Sdk",
-  "command": "filezilla",
-  "rename-icon": "filezilla",
-  "copy-icon": true,
-  "rename-desktop-file": "filezilla.desktop",
-  "finish-args": [
-    "--share=ipc",
-    "--socket=fallback-x11",
-    "--device=dri",
-    "--socket=wayland",
-    "--talk-name=org.freedesktop.PowerManagement",
-    "--talk-name=org.freedesktop.Notifications",
-    "--talk-name=org.gnome.SessionManager",
-    "--filesystem=host",
-    "--share=network",
-    "--socket=ssh-auth"
-  ],
-  "cleanup": [
-    "/include",
-    "/lib/pkgconfig",
-    "/lib/*.a",
-    "/lib/*.la",
-    "/share/aclocal"
-  ],
-  "modules": [
-    "shared-modules/glu/glu-9.json",
-    {
-      "name": "boost",
-      "sources": [
+    "id": "org.filezillaproject.Filezilla",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "25.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "filezilla",
+    "rename-icon": "filezilla",
+    "copy-icon": true,
+    "rename-desktop-file": "filezilla.desktop",
+    "finish-args": [
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--device=dri",
+        "--socket=wayland",
+        "--talk-name=org.freedesktop.PowerManagement",
+        "--talk-name=org.freedesktop.Notifications",
+        "--talk-name=org.gnome.SessionManager",
+        "--filesystem=host",
+        "--share=network",
+        "--socket=ssh-auth"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/lib/*.a",
+        "/lib/*.la",
+        "/share/aclocal"
+    ],
+    "modules": [
+        "shared-modules/glu/glu-9.json",
         {
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 6845,
-            "url-template": "https://archives.boost.io/release/$version/source/boost_${major}_${minor}_${patch}.tar.bz2"
-          },
-          "type": "archive",
-          "url": "https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2",
-          "sha256": "49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305"
-        }
-      ],
-      "buildsystem": "simple",
-      "build-commands": [
-        "./bootstrap.sh",
-        "./b2 install --prefix=/app/ variant=release link=static threading=multi --with-regex -j $FLATPAK_BUILDER_N_JOBS"
-      ],
+            "name": "boost",
+            "sources": [
+                {
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 6845,
+                        "url-template": "https://archives.boost.io/release/$version/source/boost_${major}_${minor}_${patch}.tar.bz2"
+                    },
+                    "type": "archive",
+                    "url": "https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2",
+                    "sha256": "49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305"
+                }
+            ],
+            "buildsystem": "simple",
+            "build-commands": [
+                "./bootstrap.sh",
+                "./b2 install --prefix=/app/ variant=release link=static threading=multi --with-regex -j $FLATPAK_BUILDER_N_JOBS"
+            ],
             "cleanup": [
                 "/lib/",
                 ""
             ]
-    },
-    {
-      "name": "wxWidgets",
+        },
+        {
+            "name": "wxWidgets",
             "cleanup": [
                 "/bin",
                 "/share/bakefile"
             ],
-      "config-opts": [
-        "--without-opengl",
-        "--with-libjpeg",
-        "--with-libtiff",
-        "--with-libpng",
-        "--with-zlib",
-        "--disable-sdltest",
-        "--enable-unicode",
-        "--enable-display",
-        "--enable-propgrid",
-        "--disable-webview",
-        "--disable-webviewwebkit",
-        "--with-expat=builtin",
-        "--with-libiconv=/usr"
-      ],
-      "build-options": {
-        "cxxflags": "-std=c++0x"
-      },
-      "sources": [
+            "config-opts": [
+                "--without-opengl",
+                "--with-libjpeg",
+                "--with-libtiff",
+                "--with-libpng",
+                "--with-zlib",
+                "--disable-sdltest",
+                "--enable-unicode",
+                "--enable-display",
+                "--enable-propgrid",
+                "--disable-webview",
+                "--disable-webviewwebkit",
+                "--with-expat=builtin",
+                "--with-libiconv=/usr"
+            ],
+            "build-options": {
+                "cxxflags": "-std=c++0x"
+            },
+            "sources": [
+                {
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/wxWidgets/wxWidgets/releases/latest",
+                        "version-query": ".tag_name | sub(\"^v\"; \"\")",
+                        "url-query": ".assets[] | select(.name==\"wxWidgets-\" + $version + \".tar.bz2\") | .browser_download_url"
+                    },
+                    "type": "archive",
+                    "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.2/wxWidgets-3.3.2.tar.bz2",
+                    "sha256": "50a28cb668de47b0e006cd6ebed8cf4f76c1cac6116fb3c978c44478219103f2"
+                }
+            ]
+        },
         {
-          "x-checker-data": {
-            "type": "json",
-            "url": "https://api.github.com/repos/wxWidgets/wxWidgets/releases/latest",
-            "version-query": ".tag_name | sub(\"^v\"; \"\")",
-            "url-query": ".assets[] | select(.name==\"wxWidgets-\" + $version + \".tar.bz2\") | .browser_download_url"
-          },
-          "type": "archive",
-          "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.10/wxWidgets-3.2.10.tar.bz2",
-          "sha256": "d66e929569947a4a5920699539089a9bda83a93e5f4917fb313a61f0c344b896"
-        }
-      ]
-    },
-    {
-      "name": "libfilezilla",
-      "sources": [
+            "name": "libfilezilla",
+            "sources": [
+                {
+                    "x-checker-data": {
+                        "type": "html",
+                        "//": "filezilla-project.org blocks fedc user agent",
+                        "url": "https://packages.debian.org/source/sid/libfilezilla",
+                        "pattern": "<a href=\"(https://ftp.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_([^\"]+).orig.tar.xz)\">",
+                        "is-important": true
+                    },
+                    "type": "archive",
+                    "url": "https://ftp.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.54.1.orig.tar.xz",
+                    "sha512": "9f123cc74ad158fd2510fdd067fe6983feb01f787acc983d86d5d81065a9b042614a9c4cd7aecd9f77178482e0327f17623d2019d9269bceb33be887b0dc7d7f"
+                }
+            ]
+        },
         {
-          "x-checker-data": {
-            "type": "html",
-            "//": "filezilla-project.org blocks fedc user agent",
-            "url": "https://packages.debian.org/source/sid/libfilezilla",
-            "pattern": "<a href=\"(https://ftp.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_([^\"]+).orig.tar.xz)\">",
-            "is-important": true
-          },
-          "type": "archive",
-          "url": "https://ftp.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.54.1.orig.tar.xz",
-          "sha512": "9f123cc74ad158fd2510fdd067fe6983feb01f787acc983d86d5d81065a9b042614a9c4cd7aecd9f77178482e0327f17623d2019d9269bceb33be887b0dc7d7f"
-        }
-      ]
-    },
-    {
-      "name": "filezilla",
-      "config-opts": [
-        "--disable-autoupdatecheck",
-        "--disable-manualupdatecheck",
-        "--with-pugixml=builtin"
-      ],
+            "name": "filezilla",
+            "config-opts": [
+                "--disable-autoupdatecheck",
+                "--disable-manualupdatecheck",
+                "--with-pugixml=builtin"
+            ],
             "cleanup": [
                 "/share/pixmaps",
                 "/share/man"
             ],
-      "post-install": [
-        "install -Dm644 org.filezillaproject.Filezilla.metainfo.xml ${FLATPAK_DEST}/share/metainfo/org.filezillaproject.Filezilla.metainfo.xml",
-        "rm /app/share/appdata/filezilla.appdata.xml"
-      ],
-      "sources": [
-        {
-          "x-checker-data": {
-            "type": "html",
-            "//": "filezilla-project.org blocks fedc user agent",
-            "url": "https://packages.debian.org/source/sid/filezilla",
-            "pattern": "<a href=\"(https://ftp.debian.org/debian/pool/main/f/filezilla/filezilla_([^\"]+).orig.tar.xz)\">",
-            "is-main-source": true
-          },
-          "type": "archive",
-          "url": "https://ftp.debian.org/debian/pool/main/f/filezilla/filezilla_3.69.6.orig.tar.xz",
-          "sha512": "4986ac95aa510fa4e44584afecb46f352bdf1330a65d37df9919f5a620dc2f1e927a148b564eb93a4a7afdc553c46e0626e54edd6c9953b8a9f0853942426908"
-        },
-        {
-          "type": "file",
-          "path": "org.filezillaproject.Filezilla.metainfo.xml"
-        },
-        {
-          "type": "patch",
-          "path": "0001-Correct-notification-icon-and-app-name.patch"
-        },
-        {
-          "type": "patch",
-          "path": "desktop-file-mime.patch"
+            "post-install": [
+                "install -Dm644 org.filezillaproject.Filezilla.metainfo.xml ${FLATPAK_DEST}/share/metainfo/org.filezillaproject.Filezilla.metainfo.xml",
+                "rm /app/share/appdata/filezilla.appdata.xml"
+            ],
+            "sources": [
+                {
+                    "x-checker-data": {
+                        "type": "html",
+                        "//": "filezilla-project.org blocks fedc user agent",
+                        "url": "https://packages.debian.org/source/sid/filezilla",
+                        "pattern": "<a href=\"(https://ftp.debian.org/debian/pool/main/f/filezilla/filezilla_([^\"]+).orig.tar.xz)\">",
+                        "is-main-source": true
+                    },
+                    "type": "archive",
+                    "url": "https://ftp.debian.org/debian/pool/main/f/filezilla/filezilla_3.69.6.orig.tar.xz",
+                    "sha512": "4986ac95aa510fa4e44584afecb46f352bdf1330a65d37df9919f5a620dc2f1e927a148b564eb93a4a7afdc553c46e0626e54edd6c9953b8a9f0853942426908"
+                },
+                {
+                    "type": "file",
+                    "path": "org.filezillaproject.Filezilla.metainfo.xml"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Correct-notification-icon-and-app-name.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "desktop-file-mime.patch"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
