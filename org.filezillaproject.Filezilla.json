@@ -108,6 +108,38 @@
       ]
     },
     {
+      "name": "argon2",
+      "no-autogen": true,
+      "make-install-args": [
+        "PREFIX=/app",
+        "LIBRARY_REL=lib"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/P-H-C/phc-winner-argon2/archive/refs/tags/20190702.tar.gz",
+          "sha256": "daf972a89577f8772602bf2eb38b6a3dd3d922bf5724d45e7f9589b5e830442c"
+        }
+      ]
+    },
+    {
+      "name": "fzssh",
+      "buildsystem": "meson",
+      "sources": [
+        {
+          "x-checker-data": {
+            "type": "html",
+            "url": "https://sources.archlinux.org/other/packages/fzssh/",
+            "pattern": "(fzssh-([0-9.]+)\\.tar\\.xz)",
+            "is-important": true
+          },
+          "type": "archive",
+          "url": "https://sources.archlinux.org/other/packages/fzssh/fzssh-1.3.0.tar.xz",
+          "sha512": "6ebe301df01b24a4d3692053e65c9e4c1b510b197d7da1f353df60e3ba3dff935d68007f21d5403ba3686133b39305758afc89c0a734cfddc8f549b714bdfb22"
+        }
+      ]
+    },
+    {
       "name": "filezilla",
       "config-opts": [
         "--disable-autoupdatecheck",
