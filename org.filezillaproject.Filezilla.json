@@ -110,7 +110,11 @@
     {
       "name": "argon2",
       "no-autogen": true,
+      "make-args": [
+        "OPTTARGET=none"
+      ],
       "make-install-args": [
+        "OPTTARGET=none",
         "PREFIX=/app",
         "LIBRARY_REL=lib"
       ],
