@@ -32,6 +32,14 @@
     </ul>
   </description>
   <releases>
+    <release version="3.71.1" date="2026-08-27">
+      <description>
+      <ul>
+        <li>macOS: Work around a bug in macOS 27 where setting the locale to non-English triggers crashes in AppKit</li>
+        <li>SFTP: Improved heuristic when keyboard-interactive requests are treated as a simple password prompt on servers not offering the password authentication method</li>
+      </ul>
+      </description>
+    </release>
     <release version="3.71.0" date="2026-08-19">
       <description>
         <ul>
