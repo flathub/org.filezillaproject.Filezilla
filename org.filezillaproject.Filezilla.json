@@ -138,8 +138,8 @@
             "is-important": true
           },
           "type": "archive",
-          "url": "https://sources.archlinux.org/other/packages/fzssh/fzssh-1.5.0.tar.xz",
-          "sha512": "2b9e4529029f6cee65c2939205440f2be9ac30c984a5ceeeefdb5e4ef8666d4590a2d658224c79a2ee046af49800a2fd0a3c6725efe2e8d4739d725b8bbdb690"
+          "url": "https://sources.archlinux.org/other/packages/fzssh/fzssh-1.5.1.tar.xz",
+          "sha512": "38acef3934cd6dac7610b4d8025c4ca29bd9fc3992bfed89e01b52f0830b1bdadad8c75b4396459f0f44c3678e3331f987cc7645bdda6330a8ea48ea8c6f426b"
         }
       ]
     },
