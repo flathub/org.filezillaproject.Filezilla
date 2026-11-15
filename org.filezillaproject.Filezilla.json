@@ -102,8 +102,8 @@
             "is-important": true
           },
           "type": "archive",
-          "url": "https://sources.archlinux.org/other/packages/libfilezilla/libfilezilla-0.58.0.tar.xz",
-          "sha512": "8bcfe47e4c704e0fd4ed66da47e834b031ed4f6dd66a7e4f7991a7e87f3c88f38b822d58de83c0f4f84118b87c9a8ff1ac00913a40fb692718c49ad8063bd83a"
+          "url": "https://sources.archlinux.org/other/packages/libfilezilla/libfilezilla-0.59.0.tar.xz",
+          "sha512": "9c54d00bd84feb77f300ee7d0e7f3dea60c73b86bb119ab48494994374eebcc0f10f462bf5a2290c7d201c90ece5c95a51f255ed4c772c40420e2caeb0a74ff2"
         }
       ]
     },
@@ -138,8 +138,8 @@
             "is-important": true
           },
           "type": "archive",
-          "url": "https://sources.archlinux.org/other/packages/fzssh/fzssh-1.5.1.tar.xz",
-          "sha512": "38acef3934cd6dac7610b4d8025c4ca29bd9fc3992bfed89e01b52f0830b1bdadad8c75b4396459f0f44c3678e3331f987cc7645bdda6330a8ea48ea8c6f426b"
+          "url": "https://sources.archlinux.org/other/packages/fzssh/fzssh-1.5.2.tar.xz",
+          "sha512": "efeb98387c28377dba6685acf01c1f6b47401414f9748c0135b8ab09d566b800b100a32971a9daa66480a3598549dd9ae1c5d2046e84b1199d0c906554826d31"
         }
       ]
     },
@@ -168,8 +168,8 @@
             "is-main-source": true
           },
           "type": "archive",
-          "url": "https://sources.archlinux.org/other/filezilla/filezilla-3.71.1.tar.xz",
-          "sha512": "44c9c9db88053a1b01ee27ebc9968eabff57d2ba6b23ac44ab080e3def9d5206cb4391dd7e0742bbd6189657a48525cfd5347d34ae87b69ccbd78b29e0101fda"
+          "url": "https://sources.archlinux.org/other/filezilla/filezilla-3.72.0.tar.xz",
+          "sha512": "789c741a1e62f33b3565daac837fbe25d190bcf8bc77a1fd00985650383f723da77512e09a77ff540b1c8e89490e4bd96508d22991c05e98d1e0dc76ce086e38"
         },
         {
           "type": "file",
