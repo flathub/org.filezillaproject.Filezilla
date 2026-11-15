@@ -33,7 +33,16 @@
   </description>
   <releases>
     <release version="3.72.0" date="2026-11-15">
-      <description></description>
+      <description>
+        <ul>
+          <li>Updated to libfilezilla 0.59.0 and fzssh 1.5.2</li>
+          <li>Fixed various crashes</li>
+          <li>FTP over TLS: Add strict PROT P requirement, disconnect if input buffer is non-empty after AUTH</li>
+          <li>MSW: File editing now disallows setting direct associations to cmd.exe and powershell.exe</li>
+          <li>FTP: If the experimental "Strip VMS revisions" is set in filezilla.xml, filenames were not correctly sanitized when connecting to FTP servers configured with server type VMS in the Site Manager</li>
+          <li>FTP: Passive mode data connections are now always established to the same IP address as the control connection, this can be reverted to previous behavior in the Site Manager on a per-site basis</li>
+        </ul>
+      </description>
     </release>
     <release version="3.71.1" date="2026-08-27">
       <description>
