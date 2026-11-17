@@ -168,8 +168,8 @@
             "is-main-source": true
           },
           "type": "archive",
-          "url": "https://sources.archlinux.org/other/filezilla/filezilla-3.72.0.tar.xz",
-          "sha512": "789c741a1e62f33b3565daac837fbe25d190bcf8bc77a1fd00985650383f723da77512e09a77ff540b1c8e89490e4bd96508d22991c05e98d1e0dc76ce086e38"
+          "url": "https://sources.archlinux.org/other/filezilla/filezilla-3.72.1.tar.xz",
+          "sha512": "4cac3c7665da76bbe44a69c9b0d9b23b21cd0e4f111de3b7ae4dbae69693c24ed6904b42e23cf9b0898c068a7b0ae75f4a82b755093c05fede9296302e88af20"
         },
         {
           "type": "file",

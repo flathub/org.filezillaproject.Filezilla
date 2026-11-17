@@ -32,6 +32,13 @@
     </ul>
   </description>
   <releases>
+    <release version="3.72.1" date="2026-11-16">
+      <description>
+        <ul>
+          <li>macOS: Fixed a regression in toolbar sizing with certain screen resolutions</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.72.0" date="2026-11-15">
       <description>
         <ul>
